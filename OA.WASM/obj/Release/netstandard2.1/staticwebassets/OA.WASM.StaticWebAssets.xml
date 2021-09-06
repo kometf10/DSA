@@ -1,0 +1,8 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="D:\Al Ibda3 Bank Portal\OA_sln\OA.WASM\bin\Release\netstandard2.1\wwwroot\" />
+  <ContentRoot BasePath="_content/BlazorColorPicker" Path="C:\Users\asus\.nuget\packages\blazorcolorpicker\1.1.1\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/BlazorDateRangePicker" Path="C:\Users\asus\.nuget\packages\blazordaterangepicker\3.2.0\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/ComponentLib" Path="D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\wwwroot\" />
+  <ContentRoot BasePath="_content/MatBlazor" Path="C:\Users\asus\.nuget\packages\matblazor\2.7.0\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication" Path="C:\Users\asus\.nuget\packages\microsoft.aspnetcore.components.webassembly.authentication\3.2.1\build\..\staticwebassets\" />
+</StaticWebAssets>

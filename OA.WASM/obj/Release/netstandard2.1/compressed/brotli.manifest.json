@@ -1,0 +1,524 @@
+{
+  "FilesToCompress": [
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\4OGUN3OzqIYPBulzQez_J2UWQ8JKY9M_YriCQ7Li_Bo=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.Domin\\bin\\Release\\netstandard2.0\\ar-SY\\OA.Domin.resources.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/ar-SY\/OA.Domin.resources.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\vSi7RblULt-PadSBy2YrZprWiTjAXTT5D_oJuK86TUw=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\OA.WASM.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/OA.WASM.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\XZ7PSzNZqI4pa2blLPqiNNdMEoVUjFUUpXy4jAFEKBk=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.SignalR.Client.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.SignalR.Client.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\D9y5RXbA-sEzwk6cnGbGMKQv87bvOEEVycrLUTe0lGU=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\-zcPVM75OAY_joGVM8yIC1gO1SFYWP1CFERgQ8PJkfA=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\netstandard.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/netstandard.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\IPbQMdJxZXdk8HTlaPyXdQ6Zb82iZLphnM74yO4EURQ=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Xml.Linq.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Xml.Linq.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Zw2-5aDWjgMedporhjigwhi-UCLcfl0tfa0LXUyD9HE=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Core.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Core.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\r6QdEXq0KfB8oZDzhnV4xskSbzJA0yBVi6XFpa3TGHM=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ob5gN-szfb1CwWnyQWvWvuid3u4df593KvZeoJQEaKc=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\WebAssembly.Net.WebSockets.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/WebAssembly.Net.WebSockets.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\-cPXlNTX8GKF-lIn-2DIjtxTe0Wpy4ZDcyAj67b6JYk=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Memory.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Memory.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\mscorlib.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/mscorlib.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\6XMT1eT3svGdg6hFzAHJscYdTQjakoYccYTdHmKSr7Y=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\WebAssembly.Bindings.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/WebAssembly.Bindings.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\8g0neeYVmPrxWgbMI0ZTVO6257qMisUTPZ78egAnIMw=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Numerics.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Numerics.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\RMOYBniHZkD8OZrBV3ONIMTZqsBhSAcBFm4pVuY9dv4=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Xml.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Xml.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\fMngt4py0YmfHqV6eONyCI6R5m_YOE7KZ3U4MzCrskE=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Mono.Security.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Mono.Security.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\VAHA4LWcsdHUBgFG1-xwhc4IyJ0ZH9UyK9_qSPzDa6Y=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Transactions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Transactions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\C09aqx1vDLK7zQ9XnZcUqAgTDRwybxhRg-FR8HSk1v8=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Runtime.Serialization.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.Serialization.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\6mtLxbGMMGcIfch8cp0W9gmBoI493AxBRUPGEzOn3nU=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.ServiceModel.Internals.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.ServiceModel.Internals.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\moW4EYN6ExD6T0vSBMMggn62cZaTd8dSr9b-yj-9dPM=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Net.Http.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\LUtkiqNd5ABTiuiYaqzaJxVjPq_Z4FqezuIWk-faqSA=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Net.Http.WebAssemblyHttpHandler.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.WebAssemblyHttpHandler.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\R8CUbbWAKar388eFQJhUgiTgLEv2Mih9wr9iO0P7ImU=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.ComponentModel.Composition.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.ComponentModel.Composition.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ptCMHBy9q8MMLU0ukLMuvvhQk-yYljw37MTKtfsvuFQ=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.IO.Compression.FileSystem.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.IO.Compression.FileSystem.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\hLbkXBzxUk9DSXYTLGRowe_80rxmpXsqEZbPIL4_5zs=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.IO.Compression.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.IO.Compression.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\vcCLMX4xAsUqKuQjjIkzu1O9pHGO-tdvysgSmEjL6oo=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Drawing.Common.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Drawing.Common.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\eejp4oI3sQBq-tI6GsJNaPu3Dkdot5Vbn8_R3w2vYLE=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Data.DataSetExtensions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Data.DataSetExtensions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\dxfTuT6ffPMmvuUUTfv7_bpLtOZZZHQdz77hjhy9qHw=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Data.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Data.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\2qGXWeaBbMxCPIj-GZ1SrLXXiaDIhufgp9dDvcxuHMM=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.SignalR.Common.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.SignalR.Common.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\QC2lFdhGg2mRa2tR3yhZ47dJn2L5nn4cRFtCHgTXc2c=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Text.Encodings.Web.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Encodings.Web.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ZxXy75PYbzJxNfAc-SAP1nUYm4gt1jSaOpFnBb9m85M=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Buffers.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Buffers.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\RnkGC1tQFLycj5TqyD9ZQ3lNIG5STXCvmjN5brXYZ-s=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Connections.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Connections.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\mWuFthFjkRYNp5wJCeQfDIvm0y0wE4ZfUG1cnKPcpLo=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.IO.Pipelines.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.IO.Pipelines.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\TkH6yxFQlTfY8NfznePrCdYJiEVpM9Dqy4Uu4H9qk10=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Threading.Tasks.Extensions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Threading.Tasks.Extensions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\5fGGlMPmmcScZV-wrLwVkKt61RjgpiXBhQIeSaAH0OU=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Http.Features.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Http.Features.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\_ndfoM_E5BiPTTXbGE3QqnnebiwNAoBsTciG_3_cHUA=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Primitives.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Primitives.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\kL-omZDwqByAi_lPdMeDmr3XjHcn4RVb_LmZ4mut1Yc=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Runtime.CompilerServices.Unsafe.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.CompilerServices.Unsafe.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\M1pYQBRnwZmTq5CodeZxTzsPoWvxBmTSTyy3y0pe8P0=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Text.Json.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\APJhF7Cne1YtXAEDjYtS_NC54Yt8Uy4W364YV6GfInE=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.Bcl.AsyncInterfaces.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Bcl.AsyncInterfaces.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\qAKfFnquY_7UC-MzLi04rjqEhLzTryCoLg-S6MxI19I=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Numerics.Vectors.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Numerics.Vectors.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\XMbWzSbWz38yBXaSo6e8kAgk2oM6rEjZoZYJBkMR37Q=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Options.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Options.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\2slDm92PansibrqMZaX9pMHQqObnQSPWK0YKGBbgoSw=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Http.Connections.Client.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Http.Connections.Client.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\6idHiLexuISz_EbTqLvwcZiUQ2dTSK6lAVcaL1pnme0=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Http.Connections.Common.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Http.Connections.Common.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\9UNtwDMFW86VtnTtJFk9xcc1hCnXFGXccFv3SkbgYy0=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ElH55p3NvI-HztuwDC2P6Gxnepz6ChdrOmHgeAVQ5H4=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.SignalR.Client.Core.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.SignalR.Client.Core.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\RXyMr6_qez7WkL3NF6xIvnOfXJcbKlWmShpzA7bJ-08=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.SignalR.Protocols.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\k4zOMezeLfMdBtKLVs2zv3Xxb-_4ADH1XEcJ2AL6gi0=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.DependencyInjection.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\VlsKv5zXgdK0MrYHXr9XlUCXwuwNI7AUI-C1PEFXcz4=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Logging.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\gQq6HsU4CxB8AtlbnnxlWbog4gqceUet3x6dp6AO33g=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Diagnostics.DiagnosticSource.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Diagnostics.DiagnosticSource.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\1FBfAreOfbXDp0WA294BCrk0EIa5ZqlghOuvDlqFtk8=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Runtime.Extensions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.Extensions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\vrQresrQjYlvmLF1TcQFTDnoyCPKWUc39vSvo5EfwmQ=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.AppContext.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.AppContext.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\XAnEkn2DkDU-Xn588HKF6xZ5f3g9Eyzmw3DjEGtn2lM=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Runtime.InteropServices.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.InteropServices.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\tFMMNru1KjM9tY0dph3potA-qlmOtgZOwHLp_imUF7Y=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Diagnostics.Debug.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Diagnostics.Debug.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\mzuLugvmIOgYjOk4f3eQas5TIH2wER7oBvjOd1j22ps=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Threading.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Threading.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\8Q_uKcqkDjFjcXfcYU073dQlKb5IRta-UHFtV3Tjz9s=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Reflection.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Reflection.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\zWDzFtXZzC_KLMGVRm7c4nLj3X7VnzT9SMdxCVqb3dE=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Collections.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Collections.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Pts2S7BakHY8LACDy5I26bdgF2CrhSoTCirY4R-_sBE=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Collections.Concurrent.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Collections.Concurrent.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\g3D7CEj2L0Qctx7Es-Pvvvauld0RQjyo76PPB99L9Qk=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Diagnostics.Tracing.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Diagnostics.Tracing.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\U4q43ZeuBEBaCygKJwr18fjDYwnFv22MHuvMVqnpNzI=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Resources.ResourceManager.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Resources.ResourceManager.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\6CpyRQAYrVPJfNYBKH0K9lWX_rNPO15lwNhGHPmvxtk=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Runtime.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\bVX8kcaBVhKUpt_hf82y3fnm2N9FfxgMCsWN_4XPaYc=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Threading.Channels.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Threading.Channels.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\5YZMgnS9flpYsRkvS42Avy-zKTyfHrpVyRz2t3MJwWY=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\AutoMapper.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/AutoMapper.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\yTznKFXYjwtGYUGUdxYEw8gA1A_IWlMYOncOmAAyJas=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Reflection.Emit.ILGeneration.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Reflection.Emit.ILGeneration.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\4A297N6Xf0UZNMTrY_4COe43Hmcrtxb-eTiqTJ5M6wA=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Reflection.Emit.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Reflection.Emit.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ubyINHXDmWOAugBDEb8CCz_uV68eordXiYDxpUeRBvg=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.CSharp.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.CSharp.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Net.Http.Json.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\D5akJeBd7NNITuzAXxlX7zl2jfsc4uTKyeEKwwNhqoo=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.WebUtilities.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.WebUtilities.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\P66ftDrXwc6ayND8uYzIk0CPQy1GjNZAPHx9RMhi3V4=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.Net.Http.Headers.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Net.Http.Headers.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\HeCd5Y3X8orEGzzD-yz6GiOaTaLthdkHdJcq8dhXVP4=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Localization.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Localization.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\_3xZvR0iSY4R5XzR34qsvgYh5zi22Pl_4GW9QWBxbs8=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Localization.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Localization.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\9z1MEAnn5QmnUOzfPgRD_ks29vTDb9DYqY_I3v1zfoM=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Blazored.FluentValidation.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Blazored.FluentValidation.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\xCWT_yJdttcPshhrsg20ryKTmo4J9CwnPKadM4l2tTs=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\qohgx6UXUVGuwzRXAW0wxKFTSND5cctWfzl8_2-NiWA=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.Forms.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Forms.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\tmnkCmP9OzLUkpQ3LP7PRosi7gt5pyfEZCM6aqAokFI=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.ComponentModel.Annotations.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.ComponentModel.Annotations.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\LIfCYwg_PHltTK4z3EnbSkA7m2cn8JS4jHVthdKrDF8=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.ComponentModel.DataAnnotations.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.ComponentModel.DataAnnotations.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\E5wZiQjuddKPOkVB1HXX93XugTZB9ke1kPPMoTxuiis=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\FluentValidation.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/FluentValidation.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\x_d8po44BC1XYtKB636V4bpzMWUYnrDLyVdwkhHe5-0=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\BlazorDateRangePicker.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorDateRangePicker.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\htT9hyXFg6CAnViWMo4MM0tqQn7KspCErLDZKrDGhpM=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\wB4WfCZAJe40lF9s6DPasdoVrCZUrqivPm-iFfGG-FM=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.Web.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\mRd6TL4DYldo1ko9czkjEDcoiPdMPrJxz3dekwV6OOY=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Newtonsoft.Json.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Newtonsoft.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\haOWNiAAP5bzYVlSzI50kFL-INPWPdtBuEj_2vwcmtk=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\BlazorColorPicker.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorColorPicker.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\D1gbYUWxCdwEKvWRcGQoVikKs0zgWMUenGMDEaDRxrc=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Configuration.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\h63P3V3VGkeyevWhZZBqbi2sruaGouz0fvHR2raMPv0=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Authorization.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Authorization.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\8dJdpCclXFDuZW-MGGF8PyXh7s4QrSjC65BesTzZOvY=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Metadata.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Metadata.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\9LfXb46Ym1ehoppG6CfRUUziWBpk5cxsCt3ru4IZInY=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Toolbelt.Blazor.HttpClientInterceptor.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Toolbelt.Blazor.HttpClientInterceptor.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\2oVri53ZcynS_CAbeFZwEcTd_9HjJG3fwSrZVCriA-o=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\MatBlazor.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/MatBlazor.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\5sSlTSQ_K7TarGESQHfRX9fvxfzghpaJTV2B3nctiJk=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\BlazorDownloadFile.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorDownloadFile.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Z2THU2kP6A_H7_y9SsPxFqU4WwcZqzhGW8UjgP0Nzoc=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\OA.Domin.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/OA.Domin.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\BCNQuQIDEqyAAs5OZBfGJWZ2pzbzCJXf-rZmstivU1o=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\System.Reflection.Emit.Lightweight.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Reflection.Emit.Lightweight.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\12H0u0xLaCXtXzsFFKCyj_KX9OZXoSXxYykEuat9mq0=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.EntityFrameworkCore.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.EntityFrameworkCore.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\5lY1KL-pA7kS-OYycrkrhkXJKFHJHVbdmUTyPYaqDiM=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Authorization.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\7_FtaZd2xSysaMLC59XhYdtkNMZ15ha0lk73dxPdT5w=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Blazored.LocalStorage.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Blazored.LocalStorage.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\sifIvl02zqfSiv67ZRAsSa_NCvhMgTGrIUNuK8LmCNM=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.WebAssembly.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\iUTfpj7A29tIp2gl2fLM_w1MwyI8XMmUV8gFe_mJBZI=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Configuration.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\iqCTExKPC76hORseVGmhVc1uwSgrTDloPHWYiyzt36Q=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Configuration.Json.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\rDxOhAkkG0rzM8mDToRsneyatLZ3m_OyLTXPRA81ZKw=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Configuration.FileExtensions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.FileExtensions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ROy00p56saSEbyOGgwnu8op__-jeRfR6GYOOLp_fVw4=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.FileProviders.Physical.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.FileProviders.Physical.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\K3YFmrW2bw2nAvgBqWJvZD2KN9q1vRVzOyp6AOSojMo=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.FileSystemGlobbing.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.FileSystemGlobbing.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\X3n9B0GKwWD1R7H_6ydrvoazqRQrQRjS_NH5VG6VJNY=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.FileProviders.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.FileProviders.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\dwm_rKImjhxtOmHHVpSxOgl2oh2R26xOWihLaZSv7Vs=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.WebAssembly.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\BKHWgHFbx-Re4E1F6fggZ3RfJWuZBZ7pzjgxnIh4I1s=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\unlinked\\ComponentLib.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/ComponentLib.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash",
+      "Source": "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.3.2.0.js",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.3.2.0.js.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash",
+      "Source": "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.timezones.dat",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.timezones.dat.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash",
+      "Source": "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.wasm",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.wasm.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\oU0moF6IIkna1pMoSD6Ze63s6aHfjCtUflz7xDmENPg=.hash",
+      "Source": "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.build\\3.2.0\\tools\\blazor\\blazor.webassembly.js",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\hPtzlQ5OSsPcTjuv2GjJwlw7B62V4zA0KckiGO01pJM=.hash",
+      "Source": "D:\\Al Ibda3 Bank Portal\\OA_sln\\OA.WASM\\obj\\Release\\netstandard2.1\\blazor\\blazor.boot.json",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
+    }
+  ]
+}

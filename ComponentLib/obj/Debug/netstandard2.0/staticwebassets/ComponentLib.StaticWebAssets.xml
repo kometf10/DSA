@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/BlazorColorPicker" Path="C:\Users\komet\.nuget\packages\blazorcolorpicker\1.1.1\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/BlazorDateRangePicker" Path="C:\Users\komet\.nuget\packages\blazordaterangepicker\3.2.0\build\..\staticwebassets\" />
+</StaticWebAssets>

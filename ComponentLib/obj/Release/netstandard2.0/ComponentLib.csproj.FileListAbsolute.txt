@@ -1,0 +1,187 @@
+D:\.net core Template\Try 1\OA_sln\ComponentLib\bin\Release\netstandard2.0\ComponentLib.deps.json
+D:\.net core Template\Try 1\OA_sln\ComponentLib\bin\Release\netstandard2.0\ComponentLib.dll
+D:\.net core Template\Try 1\OA_sln\ComponentLib\bin\Release\netstandard2.0\ComponentLib.pdb
+D:\.net core Template\Try 1\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.csprojAssemblyReference.cache
+D:\.net core Template\Try 1\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.AssemblyInfoInputs.cache
+D:\.net core Template\Try 1\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.AssemblyInfo.cs
+D:\.net core Template\Try 1\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.csproj.CoreCompileInputs.cache
+D:\.net core Template\Try 1\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.RazorComponent.input.cache
+D:\.net core Template\Try 1\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Loading.razor.g.cs
+D:\.net core Template\Try 1\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\TestComp.razor.g.cs
+D:\.net core Template\Try 1\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\_Imports.razor.g.cs
+D:\.net core Template\Try 1\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\ComponentLib.dll
+D:\.net core Template\Try 1\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.TagHelpers.input.cache
+D:\.net core Template\Try 1\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.TagHelpers.output.cache
+D:\.net core Template\Try 1\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.RazorCoreGenerate.cache
+D:\.net core Template\Try 1\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Loading.razor.g.cs
+D:\.net core Template\Try 1\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\TestComp.razor.g.cs
+D:\.net core Template\Try 1\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\_Imports.razor.g.cs
+D:\.net core Template\Try 1\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.RazorTargetAssemblyInfo.cache
+D:\.net core Template\Try 1\OA_sln\ComponentLib\obj\Release\netstandard2.0\staticwebassets\ComponentLib.StaticWebAssets.Manifest.cache
+D:\.net core Template\Try 1\OA_sln\ComponentLib\obj\Release\netstandard2.0\staticwebassets\ComponentLib.StaticWebAssets.xml
+D:\.net core Template\Try 1\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.dll
+D:\.net core Template\Try 1\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.pdb
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\bin\Release\netstandard2.0\ComponentLib.StaticWebAssets.xml
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\bin\Release\netstandard2.0\ComponentLib.deps.json
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\bin\Release\netstandard2.0\ComponentLib.dll
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\bin\Release\netstandard2.0\ComponentLib.pdb
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\bin\Release\netstandard2.0\OA.Domin.dll
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\bin\Release\netstandard2.0\OA.Domin.pdb
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\bin\Release\netstandard2.0\ar-SY\OA.Domin.resources.dll
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.csprojAssemblyReference.cache
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.AssemblyInfoInputs.cache
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.AssemblyInfo.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.csproj.CoreCompileInputs.cache
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.RazorComponent.input.cache
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\CheckBoxList.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Confirm.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Controls\Btn.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Controls\IconBtn.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Controls\MInputDate.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Controls\MInputNumber.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Controls\MInputSelect.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Controls\MInputText.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\CustomValidationMessage.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Grid.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\GridFilter.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\GridRowOptions.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Loading.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\MiniLoading.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\ModalContainer.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\NotAuthorize.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\OrdarableList.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\PageNotFound.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Pagination.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\ServerValidation.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\ThemingStyle.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\VerticalTabs.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\_Imports.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.RazorComponent.output.cache
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\ComponentLib.dll
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.TagHelpers.input.cache
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.TagHelpers.output.cache
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.RazorCoreGenerate.cache
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\CheckBoxList.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Confirm.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Controls\Btn.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Controls\IconBtn.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Controls\MInputDate.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Controls\MInputNumber.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Controls\MInputSelect.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Controls\MInputText.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\CustomValidationMessage.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Grid.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\GridFilter.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\GridRowOptions.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Loading.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\MiniLoading.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\ModalContainer.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\NotAuthorize.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\OrdarableList.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\PageNotFound.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Pagination.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\ServerValidation.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\ThemingStyle.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\VerticalTabs.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\_Imports.razor.g.cs
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\staticwebassets\ComponentLib.StaticWebAssets.Manifest.cache
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\staticwebassets\ComponentLib.StaticWebAssets.xml
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\scopedcss\bundle\ComponentLib.styles.css
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.RazorTargetAssemblyInfo.cache
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.csproj.CopyComplete
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.dll
+D:\.net core Template\Try 12 VS-Testing\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.pdb
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\bin\Release\netstandard2.0\ComponentLib.StaticWebAssets.xml
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\bin\Release\netstandard2.0\ComponentLib.deps.json
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\bin\Release\netstandard2.0\ComponentLib.dll
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\bin\Release\netstandard2.0\ComponentLib.pdb
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\bin\Release\netstandard2.0\OA.Domin.dll
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\bin\Release\netstandard2.0\OA.Domin.pdb
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\bin\Release\netstandard2.0\ar-SY\OA.Domin.resources.dll
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.csprojAssemblyReference.cache
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.AssemblyInfoInputs.cache
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.AssemblyInfo.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.csproj.CoreCompileInputs.cache
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.RazorComponent.input.cache
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\CheckBoxList.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\CheckMark.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\CollapseContainer.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Confirm.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Controls\Btn.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Controls\CheckBoxBtn.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Controls\IconBtn.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Controls\MInputDate.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Controls\MInputDecimal.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Controls\MInputNumber.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Controls\MInputRange.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Controls\MInputSelect.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Controls\MInputText.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Controls\MNInputDate.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Controls\MNInputDecimal.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Controls\MNInputNumber.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Controls\RadioBtnList.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\CustomValidationMessage.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Grid.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\GridFilter.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\GridRowOptions.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Loading.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\MiniLoading.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\ModalContainer.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\NotAuthorize.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\OrdarableList.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\PageNotFound.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Pagination.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\RowOptions.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\SequentialTabs.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\ServerValidation.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\ThemingStyle.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\VerticalTabs.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\_Imports.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.RazorComponent.output.cache
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\ComponentLib.dll
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.TagHelpers.input.cache
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.TagHelpers.output.cache
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.RazorCoreGenerate.cache
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\CheckBoxList.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\CheckMark.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\CollapseContainer.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Confirm.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Controls\Btn.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Controls\CheckBoxBtn.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Controls\IconBtn.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Controls\MInputDate.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Controls\MInputDecimal.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Controls\MInputNumber.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Controls\MInputRange.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Controls\MInputSelect.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Controls\MInputText.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Controls\MNInputDate.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Controls\MNInputDecimal.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Controls\MNInputNumber.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Controls\RadioBtnList.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\CustomValidationMessage.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Grid.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\GridFilter.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\GridRowOptions.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Loading.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\MiniLoading.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\ModalContainer.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\NotAuthorize.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\OrdarableList.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\PageNotFound.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Pagination.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\RowOptions.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\SequentialTabs.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\ServerValidation.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\ThemingStyle.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\VerticalTabs.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\_Imports.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\staticwebassets\ComponentLib.StaticWebAssets.Manifest.cache
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\staticwebassets\ComponentLib.StaticWebAssets.xml
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\scopedcss\bundle\ComponentLib.styles.css
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.RazorTargetAssemblyInfo.cache
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.csproj.CopyComplete
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.dll
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\ComponentLib.pdb
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\RazorDeclaration\Controls\RishTextEditor.razor.g.cs
+D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Release\netstandard2.0\Razor\Controls\RishTextEditor.razor.g.cs
