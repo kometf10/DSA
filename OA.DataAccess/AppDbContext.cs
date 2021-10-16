@@ -19,6 +19,7 @@ using OA.DataAccess.Auditing;
 using OA.Domin.Auditing;
 using OA.Domin.Reporting.TemplateReporting;
 using OA.Domin.DSA;
+using OA.Domin.DSA.Indexes;
 
 namespace OA.DataAccess
 {
@@ -69,7 +70,34 @@ namespace OA.DataAccess
         public DbSet<MenueTranslation> MenueTranslations { get; set; }
         public DbSet<Page> Pages { get; set; }
         public DbSet<PageTranslation> PageTranslations { get; set; }
-        public DbSet<Upload> Uploads { get; set; }
+        public DbSet<Article> Articles { get; set; }
+        public DbSet<ArticleCategory> ArticleCategories { get; set; }
+        public DbSet<ArticleTranslation> ArticleTranslations { get; set; }
+        public DbSet<Attachment> Attachments { get; set; }
+
+        public DbSet<Person> People { get; set; }
+        public DbSet<PersonDonator> PersonDonators { get; set; }
+        public DbSet<CorporateDonator> CorporateDonators { get; set; }
+        public DbSet<Beneficiary> Beneficiaries { get; set; }
+        public DbSet<CorporateBeneficiary> CorporateBeneficiaries { get; set; }
+        public DbSet<Donation> Donations { get; set; }
+        public DbSet<DonationRequest> DonationRequests { get; set; }
+        public DbSet<DonationOffer> DonationOffers { get; set; }
+
+        public DbSet<Organization> Organizations { get; set; }
+        public DbSet<Vacancy> Vacancies { get; set; }
+        public DbSet<Project> Projects { get; set; }
+
+
+        //APP Indexes
+        public DbSet<City> Cities { get; set; }
+        public DbSet<Governorate> Governorates { get; set; }
+        public DbSet<Activity> Activities { get; set; }
+        public DbSet<Nationality> Nationalities { get; set; }
+        public DbSet<JobType> JobTypes { get; set; }
+        public DbSet<AcademicQualification> AcademicQualifications { get; set; }
+        public DbSet<DonationType> DonationTypes { get; set; }
+        
 
  
         //Testing functionality

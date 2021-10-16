@@ -36,7 +36,7 @@ else
     {
         <Grid Items="ListData">
             <GridHeader>
-                <th> @Localizer["Event"] </th>
+                <th> @Localizer["Category"] </th>
                 <th> @Localizer["Name"] </th>
                 <th> @Localizer["Language"]</th>
                 <th> @Localizer["Slug"]</th>
@@ -44,7 +44,7 @@ else
                 <th> @Localizer["Options"] </th>
             </GridHeader>
             <GridRow>
-                <td> <span> @Localizer["Event"] </span> @context.EventCategory?.Name</td>
+                <td> <span> @Localizer["Category"] </span> @context.EventCategory?.Name</td>
                 <td> <span> @Localizer["Name"] </span> @context.Name</td>
                 <td> <span> @Localizer["Language"] </span> @context.Language</td>
                 <td> <span> @Localizer["Slug"] </span> @context.Slug</td>

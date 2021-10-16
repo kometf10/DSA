@@ -1,0 +1,55 @@
+﻿@using OA.Domin.DSA
+
+<div class="form-group row">
+    <div class="col-sm-6">
+        <MInputText @bind-Value="Project.Name" For="@(() => Project.Name)" Id="Name" EntityType="typeof(Project)" PropName="Name" Active="@Active" />
+    </div>
+    <div class="col-sm-6">
+        <MInputText @bind-Value="Project.OwnerName" For="@(() => Project.OwnerName)" Id="OwnerName" EntityType="typeof(Project)" PropName="OwnerName" Active="@Active" />
+    </div>
+</div>
+
+<div class="form-group row">
+    <div class="col-sm-6">
+        <MInputText @bind-Value="Project.Papers" For="@(() => Project.Papers)" Id="Phone" EntityType="typeof(Project)" PropName="Papers" Active="@Active" />
+    </div>
+    <div class="col-sm-6">
+        <MInputNumber @bind-Value="Project.WorkerCount" For="@(() => Project.WorkerCount)" Id="WorkerCount" EntityType="typeof(Project)" PropName="WorkerCount" />
+    </div>
+</div>
+
+<div class="form-group row">
+    <div class="col-sm-6">
+        <MInputText @bind-Value="Project.TimePlan" For="@(() => Project.TimePlan)" Id="Phone" EntityType="typeof(Project)" PropName="TimePlan" Active="@Active" />
+    </div>
+    <div class="col-sm-6">
+        <MInputDecimal @bind-Value="Project.EstimatedCost" For="@(() => Project.EstimatedCost)" Id="EstimatedCost" EntityType="typeof(Project)" PropName="EstimatedCost" />
+    </div>
+</div>
+
+<div class="form-group row">
+    <div class="col-sm-6">
+        <MInputText @bind-Value="Project.Location" For="@(() => Project.Location)" Id="Location" EntityType="typeof(Project)" PropName="Location" Active="@Active" />
+    </div>
+    <div class="col-sm-6">
+        <MInputText @bind-Value="Project.Info" For="@(() => Project.Info)" Id="Info" EntityType="typeof(Project)" PropName="Info" Active="@Active"  />
+    </div>
+</div>
+
+<CollapseContainer Title="Supervisor Info">
+    <div class="form-group row">
+        <div class="col-sm-12">
+            <MInputText @bind-Value="Project.SupervisorName" For="@(() => Project.SupervisorName)" Id="SupervisorName" EntityType="typeof(Project)" PropName="SupervisorName" Active="@Active" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-sm-12">
+            <MInputText @bind-Value="Project.SupervisorPhone" For="@(() => Project.SupervisorPhone)" Id="SupervisorPhone" EntityType="typeof(Project)" PropName="SupervisorPhone" Active="@Active" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-sm-12">
+            <MInputText @bind-Value="Project.SupervisorEmail" For="@(() => Project.SupervisorEmail)" Id="SupervisorEmail" EntityType="typeof(Project)" PropName="SupervisorEmail" Active="@Active" />
+        </div>
+    </div>
+</CollapseContainer>

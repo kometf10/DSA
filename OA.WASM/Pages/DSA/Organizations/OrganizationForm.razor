@@ -1,0 +1,26 @@
+﻿@using OA.Domin.DSA
+@using OA.WASM.Pages.DSA.People 
+
+<div class="form-group row">
+    <div class="col-sm-6">
+        <MInputText @bind-Value="Organization.Name" For="@(() => Organization.Name)" Id="Name" EntityType="typeof(Organization)" PropName="Name" Active="@Active" />
+    </div>
+    <div class="col-sm-6">
+        <MInputText @bind-Value="Organization.Country" For="@(() => Organization.Country)" Id="Country" EntityType="typeof(Organization)" PropName="Country" Active="@Active" />
+    </div>
+</div>
+
+<div class="form-group row">
+    <div class="col-sm-6">
+        <MInputText @bind-Value="Organization.Phone" For="@(() => Organization.Phone)" Id="Phone" EntityType="typeof(Organization)" PropName="Phone" Active="@Active" />
+    </div>
+    <div class="col-sm-6">
+        <MInputText @bind-Value="Organization.Email" For="@(() => Organization.Email)" Id="WorkerCount" EntityType="typeof(Organization)" PropName="Email"  Active="@Active" />
+    </div>
+</div>
+
+<CollapseContainer Title="Reponsible Person">
+
+    <PersonForm Person="Organization.Person" IsEdit="IsEdit" />
+
+</CollapseContainer>

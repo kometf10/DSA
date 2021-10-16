@@ -64,7 +64,7 @@ namespace OA.WASM.Shared
             else
             {
                 if(result.ValidationErrors.Any())
-                    await JSRT.InvokeVoidAsync("Toast", Localizer["Something Went Wrong"].Value, "error");
+                    await JSRT.InvokeVoidAsync("Toast", Localizer["Validation Errors"].Value, "error");
                 else
                     await JSRT.InvokeVoidAsync("Toast", Localizer["Something Went Wrong"].Value, "error");
             }

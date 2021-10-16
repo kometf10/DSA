@@ -1,4 +1,5 @@
-﻿using OA.Domin.Attributes;
+﻿using Microsoft.EntityFrameworkCore.Infrastructure;
+using OA.Domin.Attributes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,6 +10,17 @@ namespace OA.Domin.DSA
     public class EventCategoryTranslation : BaseEntity
     {
 
+        private readonly ILazyLoader Loader;
+        public EventCategoryTranslation(ILazyLoader loader)
+        {
+            Loader = loader;
+        }
+
+        public EventCategoryTranslation()
+        {
+
+        }
+
         public string Name { get; set; }
         public string Description { get; set; }
 
@@ -16,8 +28,14 @@ namespace OA.Domin.DSA
         [DisplayName("Event Category")]
         public int EventCategoryId { get; set; }
 
+        private EventCategory _EventCategory;
+
         [PropFlag("FK_REF")]
-        public virtual EventCategory EventCategory { get; set; }
+        public virtual EventCategory EventCategory 
+        { 
+            get => Loader.Load(this, ref _EventCategory);
+            set => _EventCategory = value;
+        }
 
         public string Language { get; set; }
 

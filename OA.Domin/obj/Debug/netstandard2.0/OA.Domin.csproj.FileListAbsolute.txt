@@ -149,17 +149,17 @@ D:\Al Ibda3 Bank Portal\OA_sln\OA.Domin\bin\Debug\netstandard2.0\OA.Domin.dll
 D:\Al Ibda3 Bank Portal\OA_sln\OA.Domin\bin\Debug\netstandard2.0\OA.Domin.pdb
 D:\Al Ibda3 Bank Portal\OA_sln\OA.Domin\bin\Debug\netstandard2.0\ar-SY\OA.Domin.resources.dll
 D:\Al Ibda3 Bank Portal\OA_sln\OA.Domin\obj\Debug\netstandard2.0\OA.Domin.csproj.CoreCompileInputs.cache
+D:\FS\DSA\DSA_APP\OA_sln\OA.Domin\bin\Debug\netstandard2.0\OA.Domin.deps.json
+D:\FS\DSA\DSA_APP\OA_sln\OA.Domin\bin\Debug\netstandard2.0\OA.Domin.dll
+D:\FS\DSA\DSA_APP\OA_sln\OA.Domin\bin\Debug\netstandard2.0\OA.Domin.pdb
+D:\FS\DSA\DSA_APP\OA_sln\OA.Domin\bin\Debug\netstandard2.0\ar-SY\OA.Domin.resources.dll
 D:\FS\DSA\DSA_APP\OA_sln\OA.Domin\obj\Debug\netstandard2.0\OA.Domin.Resources.CommonResources.ar-SY.resources
 D:\FS\DSA\DSA_APP\OA_sln\OA.Domin\obj\Debug\netstandard2.0\OA.Domin.Resources.Controllers.ErrorController.ar-SY.resources
 D:\FS\DSA\DSA_APP\OA_sln\OA.Domin\obj\Debug\netstandard2.0\OA.Domin.csproj.GenerateResource.cache
 D:\FS\DSA\DSA_APP\OA_sln\OA.Domin\obj\Debug\netstandard2.0\OA.Domin.AssemblyInfoInputs.cache
 D:\FS\DSA\DSA_APP\OA_sln\OA.Domin\obj\Debug\netstandard2.0\OA.Domin.AssemblyInfo.cs
 D:\FS\DSA\DSA_APP\OA_sln\OA.Domin\obj\Debug\netstandard2.0\OA.Domin.csproj.CoreCompileInputs.cache
+D:\FS\DSA\DSA_APP\OA_sln\OA.Domin\obj\Debug\netstandard2.0\ar-SY\OA.Domin.resources.dll
 D:\FS\DSA\DSA_APP\OA_sln\OA.Domin\obj\Debug\netstandard2.0\OA.Domin.dll
 D:\FS\DSA\DSA_APP\OA_sln\OA.Domin\obj\Debug\netstandard2.0\OA.Domin.pdb
-D:\FS\DSA\DSA_APP\OA_sln\OA.Domin\bin\Debug\netstandard2.0\OA.Domin.deps.json
-D:\FS\DSA\DSA_APP\OA_sln\OA.Domin\bin\Debug\netstandard2.0\OA.Domin.dll
-D:\FS\DSA\DSA_APP\OA_sln\OA.Domin\bin\Debug\netstandard2.0\OA.Domin.pdb
-D:\FS\DSA\DSA_APP\OA_sln\OA.Domin\bin\Debug\netstandard2.0\ar-SY\OA.Domin.resources.dll
-D:\FS\DSA\DSA_APP\OA_sln\OA.Domin\obj\Debug\netstandard2.0\ar-SY\OA.Domin.resources.dll
 D:\FS\DSA\DSA_APP\OA_sln\OA.Domin\obj\Debug\netstandard2.0\OA.Domin.csproj.AssemblyReference.cache

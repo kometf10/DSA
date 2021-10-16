@@ -1,12 +1,12 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\aDdTey6C9fP6UJSEHLxYJ-uFTAtMM1bq055xAqGq_YU=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\D7Ws2sir_IzhR2-InAxhfDiZERmV4VUdGPOxejLuXxk=.hash",
       "Source": "D:\\FS\\DSA\\DSA_APP\\OA_sln\\OA.Domin\\bin\\Debug\\netstandard2.0\\ar-SY\\OA.Domin.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/ar-SY\/OA.Domin.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\OlVPObnVCKAxiisn4WTCea2FtOohwNcxwzqmZ3VnO_Q=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\jtbTsQPaw9wNTolxyzFm8QM1zMIyPcJYDJqjy57nTbw=.hash",
       "Source": "D:\\FS\\DSA\\DSA_APP\\OA_sln\\OA.WASM\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\OA.WASM.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/OA.WASM.dll.br"
     },
@@ -426,7 +426,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorDownloadFile.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\YxKdTqt_RBxTOKfTIBhs5z5aO7G2DtyIdbiwrLRBm38=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\zk5NgufxYdDKGDkOCDpZrT-chJ5qv4rt5eV0YSHv1UY=.hash",
       "Source": "D:\\FS\\DSA\\DSA_APP\\OA_sln\\OA.WASM\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\OA.Domin.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/OA.Domin.dll.br"
     },
@@ -491,22 +491,22 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\O_6qdxFvWCUA-XiP0hrI2R5Gk5Z1OP2HKFPM9mCyaX4=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\394ug_rLALTZgv3Xj4ezuXSz4f8pr1gffPVZZoDQtOU=.hash",
       "Source": "D:\\FS\\DSA\\DSA_APP\\OA_sln\\OA.WASM\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\ComponentLib.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/ComponentLib.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\pliDmJG_IV-xnbRw3xMypWnGHbll9idwN98HA6S6HYg=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\kAHzrMvdiqXyv-iCEvnVaqdrQTE_QMa52OB3z68sAU8=.hash",
       "Source": "D:\\FS\\DSA\\DSA_APP\\OA_sln\\OA.WASM\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\OA.WASM.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/OA.WASM.pdb.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6BNSesgyDiSv5Fg6p6YVO5Pdx7P2Hzm70skUC97w_xA=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\xRQzo8RXkZd0qYarFRh8Ufnq3N6WODByFFrWgvabYxU=.hash",
       "Source": "D:\\FS\\DSA\\DSA_APP\\OA_sln\\OA.WASM\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\OA.Domin.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/OA.Domin.pdb.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\DIyXpW97NNY6SxEDLmOwpBptQQgR40CBybXoO2pREyM=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BPzhxVshvKy4wo0gWuPxWT-GYQwyxC-Q0kAZxxsl9JM=.hash",
       "Source": "D:\\FS\\DSA\\DSA_APP\\OA_sln\\OA.WASM\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\ComponentLib.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/ComponentLib.pdb.br"
     },
@@ -531,7 +531,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\qC7zMXchpLxtYRMLUpzSjgn0gOs-qJKNujsqSn6YK_Y=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\poCuNXfB4YeyJW7KSRgeK5KEWmUBKco516uVm49UFUs=.hash",
       "Source": "D:\\FS\\DSA\\DSA_APP\\OA_sln\\OA.WASM\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }

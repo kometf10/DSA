@@ -97,7 +97,10 @@ namespace OA.Domin.Validators
         {
             return input != null && input >= 0;
         }
-
+        public static bool IsMony(decimal input)
+        {
+            return input != null && input >= 0;
+        }
 
     }
 }

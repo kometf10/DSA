@@ -42,6 +42,7 @@ else
                 <th> @Localizer["End Date"]</th>
                 <th> @Localizer["Order"]</th>
                 <th> @Localizer["Is Active"]</th>
+                <th> @Localizer["Attachments"]</th>
                 <th> @Localizer["Options"] </th>
             </GridHeader>
             <GridRow>
@@ -51,6 +52,10 @@ else
                 <td> <span> @Localizer["End Date"] </span> @context.EndDate.ToShortDateString()</td>
                 <td> <span> @Localizer["Order"] </span> @context.Order</td>
                 <td> <span> @Localizer["Is Active"] </span> <CheckMark Checked="context.IsActive" /> </td>
+                <td>
+                    <span> @Localizer["Attachments"] </span>
+                    <IconBtn ClassList="btn btn-outline btn-rounded btn-sm px-2" IconClassList="fa fa-paperclip" ClickCallBack="@(() => NavigationManager.NavigateTo($"/ItemAttachments/{nameof(Event)}/{context.Id}"))"></IconBtn>
+                </td>
                 <td>
                     <GridRowOptions EditEvent="@(() => NavigationManager.NavigateTo($"/Event/Edit/{context.Id}"))"
                                     DeleteEvent="@(() => DeleteItem(context.Id) )"

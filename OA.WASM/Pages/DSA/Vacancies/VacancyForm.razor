@@ -1,0 +1,20 @@
+﻿@using OA.Domin.DSA 
+
+<div class="form-group row">
+    <div class="col-sm-6">
+        <MInputText @bind-Value="Vacancy.Name" For="@(() => Vacancy.Name)" Id="Name" EntityType="typeof(Vacancy)" PropName="Name" Active="@Active" />
+    </div>
+    <div class="col-sm-6">
+        <MInputText @bind-Value="Vacancy.JobName" For="@(() => Vacancy.JobName)" Id="EnName" EntityType="typeof(Vacancy)" PropName="JobName" Active="@Active" />
+    </div>
+</div>
+
+<div class="form-group row">
+    <div class="col-sm-6">
+        <MInputText @bind-Value="Vacancy.EmployingInfo" For="@(() => Vacancy.EmployingInfo)" Id="Phone" EntityType="typeof(Vacancy)" PropName="EmployingInfo" Active="@Active" />
+    </div>
+    <div class="col-sm-6">
+        <MInputText @bind-Value="Vacancy.ContactEmail" For="@(() => Vacancy.ContactEmail)" Id="Email" EntityType="typeof(Vacancy)" PropName="ContactEmail" Active="@Active" />
+    </div>
+</div>
+

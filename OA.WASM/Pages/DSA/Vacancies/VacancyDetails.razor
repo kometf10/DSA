@@ -1,0 +1,21 @@
+﻿@using OA.Domin.DSA
+@using OA.WASM.Pages.DSA.People
+@inherits VacancyDetailsBase
+@page "/Vacancy/Details/{id}"
+@attribute [Authorize("donations-control")]
+
+<div class="page-title mb-5">
+    @Localizer["Vacancy"] @Localizer["Details"]
+</div>
+
+
+<DetailItem EntityType="typeof(Vacancy)" PropName="Name" Value="@EntityItem.Name" />
+
+<DetailItem EntityType="typeof(Vacancy)" PropName="JobName" Value="@EntityItem.JobName" />
+
+<DetailItem EntityType="typeof(Vacancy)" PropName="ContactEmail" Value="@EntityItem.ContactEmail" />
+
+<DetailItem EntityType="typeof(Vacancy)" PropName="EmployingInfo" Value="@EntityItem.EmployingInfo" />
+
+<Btn ClassList="btn-sm btn-comp-s" Text="Back To List" ClickCallBack="@(() => NavigationManager.NavigateTo("/Vacancies/List"))" />
+<Btn ClassList="btn-sm btn-comp-s" Text="Edit" ClickCallBack="@(() => NavigationManager.NavigateTo($"/Vacancy/Edit/{EntityItem.Id}"))" />

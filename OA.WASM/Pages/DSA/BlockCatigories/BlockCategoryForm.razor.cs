@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Components;
+using OA.Domin;
 using OA.Domin.DSA;
 using System;
 using System.Collections.Generic;
@@ -16,11 +17,15 @@ namespace OA.WASM.Pages.DSA.BlockCatigories
         [Parameter]
         public BlockCategory BlockCategory { get; set; } = new BlockCategory();
 
+        public Dictionary<string, string> BlockCategoryTypeItems { get; set; } = new Dictionary<string, string>();
+
         public string Active { get; set; } = "";
 
         protected override void OnInitialized()
         {
             Active = (IsEdit) ? "active" : "";
+
+            BlockCategoryTypeItems = StaticIndexes.BlockCategoryTypes;
         }
 
     }

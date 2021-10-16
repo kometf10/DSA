@@ -1,6 +1,7 @@
 ﻿using OA.Domain;
 using OA.Domin.Attributes;
 using OA.Domin.DSA;
+using OA.Domin.DSA.Indexes;
 using OA.Domin.Logging;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,34 @@ namespace OA.Domin.Reflection
             return new Dictionary<string, string> {
                 { nameof(Block), "Block" },
                 { nameof(BlockCategory), "Block Category" },
+                { nameof(BlockTranslation), "Block Translation" },
+                { nameof(Event), "Event" },
+                { nameof(EventCategory), "Event Category" },
+                { nameof(EventCategoryTranslation), "Event Category Translation" },
+                { nameof(EventTranslation), "Event Translation" },
+                { nameof(Page), "Page" },
+                { nameof(PageTranslation), "Page Translation" },
+                { nameof(Menue), "Menue" },
+                { nameof(MenueCategory), "Menue Category" },
+                { nameof(MenueTranslation), "Menue Translation" },
+                { nameof(Article), "Article" },
+                { nameof(ArticleTranslation), "Article Translation" },
+                { nameof(ArticleCategory), "Article Category" },
+                { nameof(Attachment), "Attachment" },
+
+                { nameof(Donation), "Donation" },
+                { nameof(Person), "Person" },
+                { nameof(CorporateDonator), "Corporate Donator" },
+                { nameof(PersonDonator), "Person Donator" },
+                { nameof(Beneficiary), "Beneficiary" },
+                { nameof(CorporateBeneficiary), "Corporate Beneficiary" },
+
+                { nameof(Activity), "Activity" },
+                { nameof(AcademicQualification), "Academic Qualification" },
+                { nameof(JobType), "JobType" },
+                { nameof(Governorate), "Governorate" },
+                { nameof(City), "City" },
+                { nameof(Nationality), "Nationality" },
             };
 
             //typeof(BaseEntity).GetNestedTypes();
@@ -26,7 +55,36 @@ namespace OA.Domin.Reflection
         {
             { nameof(Block),  typeof(Block) },
             { nameof(BlockCategory),  typeof(BlockCategory) },
-           
+            { nameof(BlockTranslation), typeof(BlockTranslation) },
+            { nameof(Event), typeof(Event) },
+            { nameof(EventCategory), typeof(EventCategory) },
+            { nameof(EventCategoryTranslation), typeof(EventCategoryTranslation) },
+            { nameof(EventTranslation), typeof(EventTranslation) },
+            { nameof(Page), typeof(Page) },
+            { nameof(PageTranslation),typeof(PageTranslation) },
+            { nameof(Menue), typeof(Menue) },
+            { nameof(MenueCategory), typeof(MenueCategory) },
+            { nameof(MenueTranslation), typeof(MenueTranslation) },
+            { nameof(Article), typeof(Article) },
+            { nameof(ArticleTranslation), typeof(ArticleTranslation) },
+            { nameof(ArticleCategory), typeof(ArticleCategory) },
+            { nameof(Attachment), typeof(Attachment) },
+
+            { nameof(Donation), typeof(Donation) },
+            { nameof(Person), typeof(Person) },
+            { nameof(CorporateDonator), typeof(CorporateDonator) },
+            { nameof(PersonDonator), typeof(PersonDonator) },
+            { nameof(Beneficiary), typeof(Beneficiary) },            
+            { nameof(CorporateBeneficiary), typeof(CorporateBeneficiary) },            
+
+            { nameof(Activity), typeof(Activity) },
+            { nameof(AcademicQualification), typeof(AcademicQualification) },
+            { nameof(JobType), typeof(JobType) },
+            { nameof(Governorate), typeof(Governorate) },
+            { nameof(City), typeof(City) },
+            { nameof(Nationality), typeof(Nationality) },
+            { nameof(DonationType), typeof(DonationType) },
+
             { nameof(ExceptionLog), typeof(ExceptionLog)}
         };
 

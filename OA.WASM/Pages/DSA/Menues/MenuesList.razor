@@ -41,6 +41,7 @@ else
                 <th> @Localizer["Parent"]</th>
                 <th> @Localizer["Order"]</th>
                 <th> @Localizer["Type"]</th>
+                <th> @Localizer["Attachments"]</th>
                 <th> @Localizer["Options"] </th>
             </GridHeader>
             <GridRow>
@@ -49,6 +50,10 @@ else
                 <td> <span> @Localizer["Parent"] </span> @context.ParentMenue?.Name</td>
                 <td> <span> @Localizer["Order"] </span> @context.LevelOrder</td>
                 <td> <span> @Localizer["Type"] </span> @context.Type </td>
+                <td>
+                    <span> @Localizer["Attachments"] </span>
+                    <IconBtn ClassList="btn btn-outline btn-rounded btn-sm px-2" IconClassList="fa fa-paperclip" ClickCallBack="@(() => NavigationManager.NavigateTo($"/ItemAttachments/{nameof(Menue)}/{context.Id}"))"></IconBtn>
+                </td>
                 <td>
                     <GridRowOptions EditEvent="@(() => NavigationManager.NavigateTo($"/Menue/Edit/{context.Id}"))"
                                     DeleteEvent="@(() => DeleteItem(context.Id) )"

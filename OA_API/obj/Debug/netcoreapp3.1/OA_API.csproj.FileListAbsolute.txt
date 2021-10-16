@@ -1231,14 +1231,6 @@ D:\Al Ibda3 Bank Portal\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.dll
 D:\Al Ibda3 Bank Portal\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.pdb
 D:\Al Ibda3 Bank Portal\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.genruntimeconfig.cache
 D:\Al Ibda3 Bank Portal\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.csproj.AssemblyReference.cache
-D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.csproj.AssemblyReference.cache
-D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.AssemblyInfoInputs.cache
-D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.AssemblyInfo.cs
-D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.csproj.CoreCompileInputs.cache
-D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.MvcApplicationPartsAssemblyInfo.cs
-D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.MvcApplicationPartsAssemblyInfo.cache
-D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.dll
-D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.pdb
 D:\FS\DSA\DSA_APP\OA_sln\OA_API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\FS\DSA\DSA_APP\OA_sln\OA_API\bin\Debug\netcoreapp3.1\appsettings.json
 D:\FS\DSA\DSA_APP\OA_sln\OA_API\bin\Debug\netcoreapp3.1\OA_API.exe
@@ -1328,9 +1320,17 @@ D:\FS\DSA\DSA_APP\OA_sln\OA_API\bin\Debug\netcoreapp3.1\OA.DataAccess.pdb
 D:\FS\DSA\DSA_APP\OA_sln\OA_API\bin\Debug\netcoreapp3.1\OA.Services.pdb
 D:\FS\DSA\DSA_APP\OA_sln\OA_API\bin\Debug\netcoreapp3.1\OA.Domin.pdb
 D:\FS\DSA\DSA_APP\OA_sln\OA_API\bin\Debug\netcoreapp3.1\ar-SY\OA.Domin.resources.dll
+D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.csproj.AssemblyReference.cache
+D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.AssemblyInfoInputs.cache
+D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.AssemblyInfo.cs
+D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.csproj.CoreCompileInputs.cache
+D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.MvcApplicationPartsAssemblyInfo.cs
+D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.MvcApplicationPartsAssemblyInfo.cache
 D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\staticwebassets\OA_API.StaticWebAssets.Manifest.cache
 D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\staticwebassets\OA_API.StaticWebAssets.xml
 D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\scopedcss\bundle\OA_API.styles.css
 D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.RazorTargetAssemblyInfo.cache
 D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.csproj.CopyComplete
+D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.dll
+D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.pdb
 D:\FS\DSA\DSA_APP\OA_sln\OA_API\obj\Debug\netcoreapp3.1\OA_API.genruntimeconfig.cache

@@ -76,7 +76,7 @@ namespace OA_API.Controllers
             var result = new Response<T>()
             {
                 Result = entity,
-                HasErrors = (c != 1)
+                HasErrors = (c == 0)
             };
             return Ok(result);
         }
@@ -84,7 +84,8 @@ namespace OA_API.Controllers
         [HttpPut]
         public virtual async Task<IActionResult> Update(T entity)
         {
-            Context.Entry(entity).State = EntityState.Modified;
+            //Context.Entry(entity).State = EntityState.Modified;
+            Context.Update(entity);
             var c = await Context.SaveChangesAsync();
 
             var result = new Response<T>()
@@ -123,20 +124,21 @@ namespace OA_API.Controllers
         }
 
         [HttpGet("IndexGet")]
+        [AllowAnonymous]
         public virtual async Task<IActionResult> IndexGet()
         {
             List<T> list = await DbSet.ToListAsync();
 
             var result = list.Select(item => new IndexData
             {
-                Id = Convert.ToInt32(item.GetType().GetProperty("Id").GetValue(item)),
-                Name = item.GetType().GetProperty("Name").GetValue(item).ToString()
+                Id = (item.GetType().GetProperty("Id").GetValue(item) != null) ? Convert.ToInt32(item.GetType().GetProperty("Id").GetValue(item)) : 0,
+                Name = (item.GetType().GetProperty("Name").GetValue(item) != null) ? item.GetType().GetProperty("Name").GetValue(item).ToString() : ""
             });
 
             return Ok(result);
         }
 
-        #if DEBUG
+#if DEBUG
 
         [HttpGet("Seed/{count}")]
         [AllowAnonymous]

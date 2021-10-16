@@ -174,7 +174,7 @@ using OA.WASM.Pages.Notifications;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 193 "D:\FS\DSA\DSA_APP\OA_sln\OA.WASM\Shared\SideNav.razor"
+#line 245 "D:\FS\DSA\DSA_APP\OA_sln\OA.WASM\Shared\SideNav.razor"
       
 
     [Inject]
@@ -192,7 +192,7 @@ using OA.WASM.Pages.Notifications;
 
     IEnumerable<KeyValuePair<string, object>> attr = new List<KeyValuePair<string, object>>() { new KeyValuePair<string, object>("checked", "checked") };
 
-    List<string> sub = new List<string>() { string.Empty, string.Empty, string.Empty, string.Empty, string.Empty, string.Empty, string.Empty };
+    List<string> sub = new List<string>() { string.Empty, string.Empty, string.Empty, string.Empty, string.Empty, string.Empty, string.Empty, string.Empty, string.Empty, string.Empty };
 
     public void ToggleSubMenu(int i)
     {

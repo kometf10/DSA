@@ -1,4 +1,5 @@
-﻿using OA.Domin.Attributes;
+﻿using Microsoft.EntityFrameworkCore.Infrastructure;
+using OA.Domin.Attributes;
 using OA.Domin.RequestFeatures;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,17 @@ namespace OA.Domin.DSA
 {
     public class PageTranslation : BaseEntity
     {
+        private readonly ILazyLoader Loader;
+        public PageTranslation(ILazyLoader loader)
+        {
+            Loader = loader;
+        }
+
+        public PageTranslation()
+        {
+
+        }
+
         [DisplayName("Translation")]
         public string Name { get; set; }
 
@@ -35,8 +47,13 @@ namespace OA.Domin.DSA
         [PropFlag("FK")]
         public int PageId { get; set; }
 
+        private Page _Page;
+
         [PropFlag("FK_REF")]
-        public virtual Page Page { get; set; }
+        public virtual Page Page { 
+            get => Loader.Load(this, ref _Page);
+            set => _Page = value;
+        }
 
         [NotMapped]
         [PropFlag("IGNORE")]

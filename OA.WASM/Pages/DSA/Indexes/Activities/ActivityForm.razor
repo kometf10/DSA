@@ -1,0 +1,14 @@
+﻿@using OA.Domin.DSA.Indexes
+
+
+<div class="form-group row">
+    <div class="col-sm-12">
+        <MInputText @bind-Value="Activity.Name" For="@(() => Activity.Name)" Id="Name" EntityType="typeof(Activity)" PropName="Name" Active="@Active" />
+    </div>
+</div>
+
+<div class="form-group row">
+    <div class="col-sm-12">
+        <MInputText @bind-Value="Activity.Description" For="@(() => Activity.Description)" Id="Description" EntityType="typeof(Activity)" PropName="Description" Active="@Active" />
+    </div>
+</div>

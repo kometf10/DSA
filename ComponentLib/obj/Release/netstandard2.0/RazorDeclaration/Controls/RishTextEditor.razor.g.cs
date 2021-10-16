@@ -12,27 +12,27 @@ namespace ComponentLib.Controls
     using System.Linq;
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
-#line 1 "D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\_Imports.razor"
+#line 1 "D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
-#line 2 "D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\_Imports.razor"
+#line 2 "D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\_Imports.razor"
 using OA.Domin.ComponentFeatures;
 
 #line default
 #line hidden
-#line 3 "D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\_Imports.razor"
+#line 3 "D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\_Imports.razor"
 using ComponentLib.Controls;
 
 #line default
 #line hidden
-#line 4 "D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\_Imports.razor"
+#line 4 "D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
-#line 1 "D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\Controls\RishTextEditor.razor"
+#line 1 "D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\Controls\RishTextEditor.razor"
 using Microsoft.JSInterop;
 
 #line default
@@ -44,18 +44,18 @@ using Microsoft.JSInterop;
         {
         }
         #pragma warning restore 1998
-#line 16 "D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\Controls\RishTextEditor.razor"
+#line 16 "D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\Controls\RishTextEditor.razor"
        
 
-        string _Id;
-        [Parameter]
-        public string Id
+    string _Id;
+    [Parameter]
+    public string Id
     {
             get => _Id ?? $"CKEditor_{uid}";
             set => _Id = value;
-        }
+    }
 
-        readonly string uid = Guid.NewGuid().ToString().ToLower().Replace("-", "");
+    readonly string uid = Guid.NewGuid().ToString().ToLower().Replace("-", "");
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {

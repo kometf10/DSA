@@ -1,0 +1,17 @@
+﻿@inherits CityEditBase
+@page "/City/Edit/{id}"
+@attribute [Authorize(Policy = "indexes-control")]
+
+<div class="page-title mt-3 mb-4"> @Localizer["Edit"] @Localizer["City"] </div>
+
+<EditForm Model="EntityItem" OnValidSubmit="HandelSubmit">
+
+    <FluentValidationValidator />
+
+    <CityForm City="EntityItem" IsEdit="true" />
+
+    <SubmitBtn Text="Save" Busy="EditBusy" />
+
+</EditForm>
+
+<Btn ClassList="btn-sm btn-comp-s" Text="Back To List" ClickCallBack="@(() => NavigationManager.NavigateTo("/Cities/List"))" />

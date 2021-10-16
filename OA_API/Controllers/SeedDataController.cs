@@ -98,6 +98,8 @@ namespace OA_API.Controllers
                     new PermissionClaim { Type = "Permission", Name = "Access Error Log", Value = "error-log-access" },
                     new PermissionClaim { Type = "Permission", Name = "Control Push Notification", Value = "push-notification-control" },
                     new PermissionClaim { Type = "Permission", Name = "Control Reporting", Value = "reporting-control" },
+                    new PermissionClaim { Type = "Permission", Name = "Control Indexes", Value = "indexes-control" },
+
                 };
 
                 DbContext.PermissionClaims.AddRange(permissions);

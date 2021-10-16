@@ -191,8 +191,8 @@ D:\Al Ibda3 Bank Portal\OA_sln\OA.UnitTest\obj\Debug\netcoreapp3.1\OA.UnitTest.c
 D:\Al Ibda3 Bank Portal\OA_sln\OA.UnitTest\obj\Debug\netcoreapp3.1\OA.UnitTest.dll
 D:\Al Ibda3 Bank Portal\OA_sln\OA.UnitTest\obj\Debug\netcoreapp3.1\OA.UnitTest.pdb
 D:\Al Ibda3 Bank Portal\OA_sln\OA.UnitTest\obj\Debug\netcoreapp3.1\OA.UnitTest.genruntimeconfig.cache
-D:\FS\DSA\DSA_APP\OA_sln\OA.UnitTest\bin\Debug\netcoreapp3.1\testhost.exe
 D:\FS\DSA\DSA_APP\OA_sln\OA.UnitTest\bin\Debug\netcoreapp3.1\testhost.dll
+D:\FS\DSA\DSA_APP\OA_sln\OA.UnitTest\bin\Debug\netcoreapp3.1\testhost.exe
 D:\FS\DSA\DSA_APP\OA_sln\OA.UnitTest\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 D:\FS\DSA\DSA_APP\OA_sln\OA.UnitTest\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
 D:\FS\DSA\DSA_APP\OA_sln\OA.UnitTest\bin\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll

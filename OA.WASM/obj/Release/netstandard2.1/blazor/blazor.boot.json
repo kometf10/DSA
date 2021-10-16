@@ -8,7 +8,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "OA.WASM.dll": "sha256-vSi7RblULt\/PadSBy2YrZprWiTjAXTT5D+oJuK86TUw=",
+      "OA.WASM.dll": "sha256-xdGWtFogiFmU8WmQbgIaRKv6XaGuP6ItBaqBrh1WhB4=",
       "Microsoft.AspNetCore.SignalR.Client.dll": "sha256-XZ7PSzNZqI4pa2blLPqiNNdMEoVUjFUUpXy4jAFEKBk=",
       "Microsoft.Extensions.DependencyInjection.Abstractions.dll": "sha256-D9y5RXbA\/sEzwk6cnGbGMKQv87bvOEEVycrLUTe0lGU=",
       "netstandard.dll": "sha256-\/zcPVM75OAY+joGVM8yIC1gO1SFYWP1CFERgQ8PJkfA=",
@@ -92,7 +92,7 @@
       "Toolbelt.Blazor.HttpClientInterceptor.dll": "sha256-9LfXb46Ym1ehoppG6CfRUUziWBpk5cxsCt3ru4IZInY=",
       "MatBlazor.dll": "sha256-2oVri53ZcynS+CAbeFZwEcTd+9HjJG3fwSrZVCriA\/o=",
       "BlazorDownloadFile.dll": "sha256-5sSlTSQ+K7TarGESQHfRX9fvxfzghpaJTV2B3nctiJk=",
-      "OA.Domin.dll": "sha256-Z2THU2kP6A+H7+y9SsPxFqU4WwcZqzhGW8UjgP0Nzoc=",
+      "OA.Domin.dll": "sha256-632eTUdaB2RXgP9SUUVXMMOh+fh1gng9yPL+7G+Jvbs=",
       "System.Reflection.Emit.Lightweight.dll": "sha256-BCNQuQIDEqyAAs5OZBfGJWZ2pzbzCJXf\/rZmstivU1o=",
       "Microsoft.EntityFrameworkCore.Abstractions.dll": "sha256-12H0u0xLaCXtXzsFFKCyj+KX9OZXoSXxYykEuat9mq0=",
       "Microsoft.AspNetCore.Components.Authorization.dll": "sha256-5lY1KL\/pA7kS\/OYycrkrhkXJKFHJHVbdmUTyPYaqDiM=",
@@ -105,7 +105,7 @@
       "Microsoft.Extensions.FileSystemGlobbing.dll": "sha256-K3YFmrW2bw2nAvgBqWJvZD2KN9q1vRVzOyp6AOSojMo=",
       "Microsoft.Extensions.FileProviders.Abstractions.dll": "sha256-X3n9B0GKwWD1R7H+6ydrvoazqRQrQRjS+NH5VG6VJNY=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-dwm+rKImjhxtOmHHVpSxOgl2oh2R26xOWihLaZSv7Vs=",
-      "ComponentLib.dll": "sha256-BKHWgHFbx\/Re4E1F6fggZ3RfJWuZBZ7pzjgxnIh4I1s="
+      "ComponentLib.dll": "sha256-zupXXZqNU0EZ5K9F2WmPaHmOwFqZh\/cRlkqUw\/mS1Vs="
     },
     "pdb": null,
     "runtime": {
@@ -115,7 +115,7 @@
     },
     "satelliteResources": {
       "ar-SY": {
-        "ar-SY\/OA.Domin.resources.dll": "sha256-4OGUN3OzqIYPBulzQez+J2UWQ8JKY9M+YriCQ7Li+Bo="
+        "ar-SY\/OA.Domin.resources.dll": "sha256-+HEmZPR59qPJzAWFGk7Nl5bBNidZxE\/4w1SB0TodENI="
       }
     }
   }

@@ -16,7 +16,7 @@
         <MInputNumber @bind-Value="Menue.LevelOrder" For="@(() => Menue.LevelOrder)" Id="LevelOrder" EntityType="typeof(Menue)" PropName="LevelOrder" />
     </div>
     <div class="col-sm-6">
-        <MInputText @bind-Value="Menue.Type" For="@(() => Menue.Type)" Id="Type" EntityType="typeof(Menue)" PropName="Type" Active="@Active" />
+        <MInputSelect @bind-Value="Menue.Type" For="@(() => Menue.Type)" Items="MenuTypeItems" Id="Type" EntityType="typeof(Menue)" PropName="Type" />
     </div>
 </div>
 

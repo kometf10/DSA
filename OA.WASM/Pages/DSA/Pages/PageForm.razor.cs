@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Components;
+using OA.Domin;
 using OA.Domin.DSA;
 using OA.WASM.Shared;
 using System;
@@ -17,6 +18,8 @@ namespace OA.WASM.Pages.DSA.Pages
         [Parameter]
         public Page Page { get; set; } = new Page();
 
+        public Dictionary<string, string> PageTypeItems { get; set; } = new Dictionary<string, string>();
+
         public string Active { get; set; } = "";
 
         public UploadFile ImageUploadControl { get; set; }
@@ -27,6 +30,7 @@ namespace OA.WASM.Pages.DSA.Pages
         {
             Active = (IsEdit) ? "active" : "";
 
+            PageTypeItems = StaticIndexes.PageTypes;
         }
 
     }

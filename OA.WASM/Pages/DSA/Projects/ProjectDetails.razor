@@ -1,0 +1,35 @@
+﻿@using OA.Domin.DSA
+@using OA.WASM.Pages.DSA.People
+@inherits ProjectDetailsBase
+@page "/Project/Details/{id}"
+@attribute [Authorize("donations-control")]
+
+<div class="page-title mb-5">
+    @Localizer["Project"] @Localizer["Details"]
+</div>
+
+
+<DetailItem EntityType="typeof(Project)" PropName="Name" Value="@EntityItem.Name" />
+
+<DetailItem EntityType="typeof(Project)" PropName="OwnerName" Value="@EntityItem.OwnerName" />
+
+<DetailItem EntityType="typeof(Project)" PropName="Info" Value="@EntityItem.Info" />
+
+<DetailItem EntityType="typeof(Project)" PropName="Papers" Value="@EntityItem.Papers" />
+
+<DetailItem EntityType="typeof(Project)" PropName="WorkerCount" Value="@EntityItem.WorkerCount.ToString()" />
+
+<DetailItem EntityType="typeof(Project)" PropName="TimePlan" Value="@EntityItem.TimePlan" />
+
+<DetailItem EntityType="typeof(Project)" PropName="EstimatedCost" Value="@EntityItem.EstimatedCost.ToString()" />
+
+<DetailItem EntityType="typeof(Project)" PropName="Location" Value="@EntityItem.Location" />
+
+<DetailItem EntityType="typeof(Project)" PropName="SupervisorName" Value="@EntityItem.SupervisorName" />
+
+<DetailItem EntityType="typeof(Project)" PropName="SupervisorPhone" Value="@EntityItem.SupervisorPhone" />
+
+<DetailItem EntityType="typeof(Project)" PropName="SupervisorEmail" Value="@EntityItem.SupervisorEmail" />
+
+<Btn ClassList="btn-sm btn-comp-s" Text="Back To List" ClickCallBack="@(() => NavigationManager.NavigateTo("/Projects/List"))" />
+<Btn ClassList="btn-sm btn-comp-s" Text="Edit" ClickCallBack="@(() => NavigationManager.NavigateTo($"/Project/Edit/{EntityItem.Id}"))" />

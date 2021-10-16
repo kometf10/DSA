@@ -18,6 +18,8 @@ namespace OA.WASM.Pages.DSA.PageTranslations
 
             PageItems = await GetIndexData<Page>();
 
+            EntityItem.Page = null;
+
         }
 
     }

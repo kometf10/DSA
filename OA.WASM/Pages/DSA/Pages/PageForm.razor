@@ -7,7 +7,7 @@
         <MInputText @bind-Value="Page.Name" For="@(() => Page.Name)" Id="Name" EntityType="typeof(Page)" PropName="Name" Active="@Active" />
     </div>
     <div class="col-sm-6">
-        <MInputText @bind-Value="Page.Type" For="@(() => Page.Type)" Id="Type" EntityType="typeof(Page)" PropName="Type" Active="@Active" />
+        <MInputSelect @bind-Value="Page.Type" For="@(() => Page.Type)" Id="Type" Items="PageTypeItems" EntityType="typeof(Page)" PropName="Type" />
     </div>
 </div>
 

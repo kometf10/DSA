@@ -1,0 +1,64 @@
+﻿@using OA.Domin.DSA
+@page "/DonationOffers/List"
+@inherits DonationOffersListBase
+@attribute [Authorize(Policy = "donations-control")]
+
+@if (ListData == null)
+{
+    <Loading></Loading>
+}
+else
+{
+    <div style="position:relative" class="mb-4">
+
+        <div class="page-title filter-title"> @Localizer["Donation Offers"] </div>
+
+        <GridFilter T="DonationOffer" SearchSubmit="SearchEvent"  @ref="GridFilterRef"></GridFilter>
+
+        <div class="export-links">
+            <IconBtn ClassList="btn btn-outline btn-rounded btn-sm px-2" IconClassList="far fa-file-excel i-lg" ClickCallBack="@(() => Export("Exel", nameof(DonationOffer)))"></IconBtn>
+            <IconBtn ClassList="btn btn-outline btn-rounded btn-sm px-2" IconClassList="far fa-file-pdf i-lg" ClickCallBack="@(() => Export("Pdf", nameof(DonationOffer)))"></IconBtn>
+            @if (ExportBusy)
+            {<MiniLoading size="25px"></MiniLoading>}
+        </div>
+
+    </div>
+
+    if (GetBusy)
+    {
+        <Loading></Loading>
+    }
+    else
+    {
+        <Grid Items="ListData">
+            <GridHeader>
+                <th> @Localizer["Donator Type"] </th>
+                <th> @Localizer["Donator"]</th>
+                <th> @Localizer["Donation Request"]</th>
+                <th> @Localizer["Accepted"]</th>
+                <th> @Localizer["Notes"]</th>
+                <th> @Localizer["Options"] </th>
+            </GridHeader>
+            <GridRow>
+                <td> <span> @Localizer["Donator Type"] </span> @context.DonatorType </td>
+                <td> <span> @Localizer["Donator"] </span> </td>
+                <td> <span> @Localizer["Donation Request"] </span>  </td>
+                <td> <span> @Localizer["Accepted"] </span> <CheckMark Checked="@context.IsAccepted" /> </td>
+                <td> <span> @Localizer["Notes"] </span> @context.Notes </td>
+                <td>
+                    <GridRowOptions EditEvent="@(() => NavigationManager.NavigateTo($"/DonationOffer/Edit/{context.Id}"))"
+                                    DeleteEvent="@(() => DeleteItem(context.Id) )">
+                    </GridRowOptions>
+                </td>
+            </GridRow>
+        </Grid>
+
+        <Pagination PagingData="PagingMetaData" SelectedPage="SelectedPageEvent" Spread="2"></Pagination>
+    }
+}
+
+<Confirm ConfirmationChanged="ConfirmationEvent" @ref="Confirmation" ConfirmTxt="Confirm" Title="Confirm Delete"> </Confirm>
+
+
+
+

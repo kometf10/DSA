@@ -27,24 +27,29 @@ namespace OA_API.Controllers.DSA
         {
             var result = new Response<Block>{ Result = block};
 
-            var fileUploadResult = await UploadService.UploadFile(block.File, "StaticFiles/SiteFiles");
-            if (fileUploadResult.HasErrors)
+            if (block.File != null)
             {
-                result.HasErrors = true;
-                result.ValidationErrors = fileUploadResult.ValidationErrors;
-                return await Task.FromResult(Ok(result));
+                var fileUploadResult = await UploadService.UploadFile(block.File, "StaticFiles/SiteFiles");
+                if (fileUploadResult.HasErrors)
+                {
+                    result.HasErrors = true;
+                    result.ValidationErrors = fileUploadResult.ValidationErrors;
+                    return await Task.FromResult(Ok(result));
+                }
+                block.FilePath = fileUploadResult.Result;
             }
-            block.FilePath = fileUploadResult.Result;
 
-            var imageUploadResult = await UploadService.UploadFile(block.Image, "StaticFiles/Images/SiteImages");
-            if(imageUploadResult.HasErrors)
+            if (block.Image != null)
             {
-                result.HasErrors = true;
-                result.ValidationErrors = imageUploadResult.ValidationErrors;
-                return await Task.FromResult(Ok(result));
+                var imageUploadResult = await UploadService.UploadFile(block.Image, "StaticFiles/Images/SiteImages");
+                if (imageUploadResult.HasErrors)
+                {
+                    result.HasErrors = true;
+                    result.ValidationErrors = imageUploadResult.ValidationErrors;
+                    return await Task.FromResult(Ok(result));
+                }
+                block.ImagePath = imageUploadResult.Result;
             }
-            block.ImagePath = imageUploadResult.Result;
-
             
             return await base.Create(block);
         }
@@ -56,6 +61,7 @@ namespace OA_API.Controllers.DSA
             if (block.File != null && block.File.Data.Length != 0)
             {
                 UploadService.DeleteUploadedFile(block.FilePath);
+
                 var fileUploadResult = await UploadService.UploadFile(block.File, "StaticFiles/SiteFiles");
                 if (fileUploadResult.HasErrors)
                 {
@@ -69,6 +75,7 @@ namespace OA_API.Controllers.DSA
             if (block.Image != null && block.Image.Data.Length != 0)
             {
                 UploadService.DeleteUploadedFile(block.ImagePath);
+
                 var imageUploadResult = await UploadService.UploadFile(block.Image, "StaticFiles/Images/SiteImages");
                 if (imageUploadResult.HasErrors)
                 {

@@ -12,22 +12,22 @@ namespace ComponentLib
     using System.Linq;
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
-#line 1 "D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\_Imports.razor"
+#line 1 "D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
-#line 2 "D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\_Imports.razor"
+#line 2 "D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\_Imports.razor"
 using OA.Domin.ComponentFeatures;
 
 #line default
 #line hidden
-#line 3 "D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\_Imports.razor"
+#line 3 "D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\_Imports.razor"
 using ComponentLib.Controls;
 
 #line default
 #line hidden
-#line 4 "D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\_Imports.razor"
+#line 4 "D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
@@ -39,7 +39,7 @@ using Microsoft.AspNetCore.Components.Forms;
         {
         }
         #pragma warning restore 1998
-#line 8 "D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\MiniLoading.razor"
+#line 8 "D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\MiniLoading.razor"
       
     [Parameter]
     public string size { get; set; } = "40px";

@@ -34,6 +34,8 @@ using OA.WASM.Services.Auditing;
 using OA.WASM.Services.Auth.Extention;
 using OA.Domin.DSA;
 using OA.WASM.Services.DSA;
+using OA.Domin.DSA.Indexes;
+using OA.WASM.Services.DSA.Indexes;
 
 namespace OA.WASM
 {
@@ -102,7 +104,34 @@ namespace OA.WASM
             builder.Services.AddScoped<ServiceBase<Menue>, MenuesService>();
             builder.Services.AddScoped<ServiceBase<MenueCategory>, MenuCategoriesService>();
             builder.Services.AddScoped<ServiceBase<MenueTranslation>, MenueTranslationsService>();
-           
+            builder.Services.AddScoped<ServiceBase<Article>, ArticlesService>();
+            builder.Services.AddScoped<ServiceBase<ArticleCategory>, ArticleCategoriesService>();
+            builder.Services.AddScoped<ServiceBase<ArticleTranslation>, ArticleTranslationsService>();
+            builder.Services.AddScoped<ServiceBase<Attachment>, AttachmentsServices>();
+            builder.Services.AddScoped<AttachmentsServices>();
+            
+
+            builder.Services.AddScoped<ServiceBase<Person>, PeopleService>();
+            builder.Services.AddScoped<ServiceBase<CorporateDonator>, CorporateDonatorsService>();
+            builder.Services.AddScoped<ServiceBase<PersonDonator>, PersonDonatorsService>();
+            builder.Services.AddScoped<ServiceBase<Beneficiary>, BeneficiariesService>();
+            builder.Services.AddScoped<ServiceBase<CorporateBeneficiary>, CorporateBeneficiariesService>();
+            builder.Services.AddScoped<ServiceBase<Donation>, DonationsService>();
+            builder.Services.AddScoped<ServiceBase<DonationRequest>, DonationRequestsService>();
+            builder.Services.AddScoped<ServiceBase<DonationOffer>, DonationOffersService>();
+            builder.Services.AddScoped<ServiceBase<Organization>, OrganizationsService>();
+            builder.Services.AddScoped<ServiceBase<Project>, ProjectsService>();
+            builder.Services.AddScoped<ServiceBase<Vacancy>, VacanciesService>();
+
+            //Indexes
+            builder.Services.AddScoped<ServiceBase<City>, CitiesService>();
+            builder.Services.AddScoped<ServiceBase<Governorate>, GovernoratesService>();
+            builder.Services.AddScoped<ServiceBase<Activity>, ActivitiesService>();
+            builder.Services.AddScoped<ServiceBase<Nationality>, NationalitiesService>();
+            builder.Services.AddScoped<ServiceBase<JobType>, JobTypesService>();
+            builder.Services.AddScoped<ServiceBase<AcademicQualification>, AcademicQualificationsService>();
+            builder.Services.AddScoped<ServiceBase<City>, CitiesService>();
+            builder.Services.AddScoped<ServiceBase<DonationType>, DonationTypesService>();
 
             var host = builder.Build();
 

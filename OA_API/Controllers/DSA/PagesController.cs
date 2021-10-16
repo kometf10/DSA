@@ -28,14 +28,18 @@ namespace OA_API.Controllers.DSA
         {
             var result = new Response<Page> { Result = page };
 
-            var imageUploadResult = await UploadService.UploadFile(page.Image, "StaticFiles/Images/SiteImages");
-            if (imageUploadResult.HasErrors)
+            if (page.Image != null)
             {
-                result.HasErrors = true;
-                result.ValidationErrors = imageUploadResult.ValidationErrors;
-                return await Task.FromResult(Ok(result));
+
+                var imageUploadResult = await UploadService.UploadFile(page.Image, "StaticFiles/Images/SiteImages");
+                if (imageUploadResult.HasErrors)
+                {
+                    result.HasErrors = true;
+                    result.ValidationErrors = imageUploadResult.ValidationErrors;
+                    return await Task.FromResult(Ok(result));
+                }
+                page.ImagePath = imageUploadResult.Result;
             }
-            page.ImagePath = imageUploadResult.Result;
 
             return await base.Create(page);
         }

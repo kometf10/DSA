@@ -1,0 +1,13 @@
+﻿@using OA.Domin.DSA
+
+<DetailItem EntityType="typeof(Person)" PropName="Name" Value="@Person.Name" />
+
+<DetailItem EntityType="typeof(Person)" PropName="EnName" Value="@Person.EnName" />
+
+<DetailItem EntityType="typeof(Person)" PropName="Email" Value="@Person.Email" />
+
+<DetailItem EntityType="typeof(Person)" PropName="Phone" Value="@Person.Phone" />
+
+<DetailItem EntityType="typeof(Person)" PropName="BirthDate" Value="@Person.BirthDate?.ToShortDateString()" />
+
+<DetailItem EntityType="typeof(Person)" PropName="Gender" Value="@Person.Gender" />

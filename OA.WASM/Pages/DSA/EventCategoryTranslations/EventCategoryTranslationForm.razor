@@ -4,8 +4,8 @@
     <div class="col-sm-6">
         <MInputText @bind-Value="EventCategoryTranslation.Name" For="@(() => EventCategoryTranslation.Name)" Id="Name" EntityType="typeof(EventCategoryTranslation)" PropName="Name" Active="@Active" />
     </div>
-    <div class="col-sm-6">
-        <MInputText @bind-Value="EventCategoryTranslation.Language" For="@(() => EventCategoryTranslation.Language)" Id="Language" EntityType="typeof(EventCategoryTranslation)" PropName="Language" Active="@Active" />
+    <div class="col-sm-6 select-col">
+        <MInputSelect @bind-Value="EventCategoryTranslation.Language" For="@(() => EventCategoryTranslation.Language)" Items="OA.Domin.StaticIndexes.Language" Id="Language" EntityType="typeof(EventCategoryTranslation)" PropName="Language" />
     </div>
 </div>
 <div class="form-group row">

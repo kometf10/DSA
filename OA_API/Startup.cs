@@ -41,6 +41,8 @@ using OA_API.Extentions;
 using OA.Domin.Notifications;
 using FluentValidation.AspNetCore;
 using OA.Domin.DSA.Validators;
+using OA.Services.DSA;
+using OA.Services.DSA.Interfaces;
 
 namespace OA_API
 {
@@ -241,6 +243,7 @@ namespace OA_API
             services.AddScoped<UploadService>();
 
             //Services
+            services.AddScoped<IDonationService, DonationService>();
             
             #endregion
         }

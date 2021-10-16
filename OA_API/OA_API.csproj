@@ -33,7 +33,7 @@
   <ItemGroup>
     <Folder Include="StaticFiles\Images\SiteImages\" />
     <Folder Include="StaticFiles\Images\ProfilePics\" />
-    <Folder Include="StaticFiles\SiteFiles\" />
+    <Folder Include="StaticFiles\SiteFiles\Attachments\" />
   </ItemGroup>
 
 

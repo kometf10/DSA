@@ -68,6 +68,19 @@ html body {
     background: #FFF;
 }
 
+.upload-control {
+    background: #FFF;
+    border-radius: 5px;
+    border: 1px solid var(--main-background);
+    max-height: 60px;
+}
+
+.doc-preview-image {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid var(--main-background);
+}
+
 /***************** Direction Classes **************/
 /*************************************************/
 .rtl {
@@ -436,7 +449,7 @@ html body {
     margin-top: 45px;
     padding-top: 30px;
     position: fixed;
-    width: 250px;
+    width: 275px;
     height: 100%;
     transition: .5s all ease-in-out;
 }
@@ -496,11 +509,11 @@ html body {
 
 
 .sidenav-comp .left-toggled:checked ~ .left-sidebar {
-    left: -250px;
+    left: -275px;
 }
 
 .sidenav-comp .right-toggled:checked ~ .right-sidebar {
-    right: -250px;
+    right: -275px;
 }
 
 
@@ -553,6 +566,10 @@ html body {
     transform: rotateX(180deg)
 }
 
+.submenu a {
+    line-height: 30px !important;
+}
+
 /** Small Screen **/
 @media (max-width: 767.98px) {
     .resp-nav-link {
@@ -584,10 +601,10 @@ html body {
     }
 
     .left-sidebar-btn {
-        left: 230px;
+        left: 250px;
     }
     .right-sidebar-btn{
-        right: 230px;
+        right: 250px;
     }
 
 }

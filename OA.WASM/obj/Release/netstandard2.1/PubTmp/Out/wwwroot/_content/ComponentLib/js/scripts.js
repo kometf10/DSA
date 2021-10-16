@@ -314,13 +314,13 @@ CKEditorInterop = (() => {
 
 						const el = document.createElement('div');
 						el.innerHTML = data;
-						if (el.innerText.trim() == '')
-							data = null;
+						//if (el.innerText.trim() == '')
+						//	data = null;
 
 						dotNetReference.invokeMethodAsync('EditorDataChanged', data);
 					});
 				})
-				.catch(error => console.error(error));
+				.catch(error => console.log(error));
 		},
 		destroy(id) {
 			editors[id].destroy()

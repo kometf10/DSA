@@ -1,0 +1,38 @@
+﻿@using OA.Domin.DSA
+@inherits DonationRequestEditBase
+@page "/DonationRequest/Edit/{id}"
+@attribute [Authorize(Policy = "donations-control")]
+
+<div class="page-title mt-3 mb-4"> @Localizer["Edit"] @Localizer["DonationRequest"] </div>
+
+<EditForm Model="EntityItem" OnValidSubmit="HandelSubmit">
+
+    <FluentValidationValidator />
+
+    <div class="form-group row">
+        <div class="col-sm-6 select-col">
+            <MInputSelect @bind-Value="EntityItem.DonationTypeId" For="@(() => EntityItem.DonationTypeId)" Items="DonationTypeItems" Id="DonationTypeId" EntityType="typeof(DonationRequest)" PropName="DonationTypeId" />
+        </div>
+        <div class="col-sm-6">
+            <MInputDecimal @bind-Value="EntityItem.Amount" For="@(() => EntityItem.Amount)" Id="Amount" EntityType="typeof(DonationRequest)" PropName="Amount" />
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-sm-12">
+            <MInputText @bind-Value="EntityItem.Description" For="@(() => EntityItem.Description)" Id="Description" EntityType="typeof(DonationRequest)" PropName="Description" Active="active" />
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-sm-12">
+            <CheckBoxBtn Checked="EntityItem.IsAccepted" Text="Accepted" OnChange="@((bool value) => EntityItem.IsAccepted = value)" />
+        </div>
+    </div>
+
+    <SubmitBtn Text="Save" Busy="EditBusy" />
+
+</EditForm>
+
+<Btn ClassList="btn-sm btn-comp-s" Text="Back To List" ClickCallBack="@(() => NavigationManager.NavigateTo("/DonationRequests/List"))" />
+

@@ -566,6 +566,10 @@ html body {
     transform: rotateX(180deg)
 }
 
+.submenu a {
+    line-height: 30px !important;
+}
+
 /** Small Screen **/
 @media (max-width: 767.98px) {
     .resp-nav-link {

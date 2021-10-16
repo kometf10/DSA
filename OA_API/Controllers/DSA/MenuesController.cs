@@ -28,23 +28,30 @@ namespace OA_API.Controllers.DSA
         {
             var result = new Response<Menue> { Result = menue };
 
-            var fileUploadResult = await UploadService.UploadFile(menue.File, "StaticFiles/SiteFiles");
-            if (fileUploadResult.HasErrors)
+            if (menue.File != null)
             {
-                result.HasErrors = true;
-                result.ValidationErrors = fileUploadResult.ValidationErrors;
-                return await Task.FromResult(Ok(result));
+                var fileUploadResult = await UploadService.UploadFile(menue.File, "StaticFiles/SiteFiles");
+                if (fileUploadResult.HasErrors)
+                {
+                    result.HasErrors = true;
+                    result.ValidationErrors = fileUploadResult.ValidationErrors;
+                    return await Task.FromResult(Ok(result));
+                }
+                menue.FilePath = fileUploadResult.Result;
             }
-            menue.FilePath = fileUploadResult.Result;
 
-            var imageUploadResult = await UploadService.UploadFile(menue.Image, "StaticFiles/Images/SiteImages");
-            if (imageUploadResult.HasErrors)
+            if (menue.Image != null)
             {
-                result.HasErrors = true;
-                result.ValidationErrors = imageUploadResult.ValidationErrors;
-                return await Task.FromResult(Ok(result));
+
+                var imageUploadResult = await UploadService.UploadFile(menue.Image, "StaticFiles/Images/SiteImages");
+                if (imageUploadResult.HasErrors)
+                {
+                    result.HasErrors = true;
+                    result.ValidationErrors = imageUploadResult.ValidationErrors;
+                    return await Task.FromResult(Ok(result));
+                }
+                menue.ImagePath = imageUploadResult.Result;
             }
-            menue.ImagePath = imageUploadResult.Result;
 
             return await base.Create(menue);
         }

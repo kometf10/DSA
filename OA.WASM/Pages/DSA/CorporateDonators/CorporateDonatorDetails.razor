@@ -1,0 +1,28 @@
+﻿@using OA.Domin.DSA
+@using OA.WASM.Pages.DSA.People  
+@inherits CorporateDonatorDetailsBase
+@page "/CorporateDonator/Details/{id}"
+@attribute [Authorize("donations-control")]
+
+<div class="page-title mb-5">
+    @Localizer["Corporate Donator"] @Localizer["Details"]
+</div>
+
+
+<DetailItem EntityType="typeof(CorporateDonator)" PropName="Name" Value="@EntityItem.Name" />
+
+<DetailItem EntityType="typeof(CorporateDonator)" PropName="EnName" Value="@EntityItem.EnName" />
+
+<DetailItem EntityType="typeof(CorporateDonator)" PropName="Email" Value="@EntityItem.Email" />
+
+<DetailItem EntityType="typeof(CorporateDonator)" PropName="Phone" Value="@EntityItem.Phone" />
+
+<DetailItem EntityType="typeof(CorporateDonator)" PropName="ActivityId" Value="@EntityItem.Activity?.Name" />
+
+<CollapseContainer Title="Responsaible Person">
+    <PersonDetails Person="EntityItem.Person" />
+</CollapseContainer>
+
+
+<Btn ClassList="btn-sm btn-comp-s" Text="Back To List" ClickCallBack="@(() => NavigationManager.NavigateTo("/CorporateDonators/List"))" />
+<Btn ClassList="btn-sm btn-comp-s" Text="Edit" ClickCallBack="@(() => NavigationManager.NavigateTo($"/CorporateDonator/Edit/{EntityItem.Id}"))" />

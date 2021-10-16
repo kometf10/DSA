@@ -5,8 +5,8 @@
     <div class="col-sm-6">
         <MInputText @bind-Value="BlockCategory.Name" For="@(() => BlockCategory.Name)" Id="Name" EntityType="typeof(BlockCategory)" PropName="Name" Active="@Active" />
     </div>
-    <div class="col-sm-6">
-        <MInputText @bind-Value="BlockCategory.Type" For="@(() => BlockCategory.Type)" Id="Type" EntityType="typeof(BlockCategory)" PropName="Type" Active="@Active" />
+    <div class="col-sm-6 select-col">
+        <MInputSelect @bind-Value="BlockCategory.Type" For="@(() => BlockCategory.Type)" Items="BlockCategoryTypeItems" Id="Type" EntityType="typeof(BlockCategory)" PropName="Type" />
     </div>
 </div>
 

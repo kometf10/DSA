@@ -113,16 +113,23 @@
             </Authorized>
         </AuthorizeView>
 
-        @*<AuthorizeView Policy="indexes-control">
+        <AuthorizeView Policy="indexes-control">
             <Authorized>
-                <div class="submenu-group @sub[3]">
+                <div class="submenu-group @sub[7]">
                     <i class="fas fa-database"></i>
-                    <span class="submenu-toggler" @onclick="@(() => ToggleSubMenu(3))"> @Localizer["Indexes"] <i class="submenu-toggler-icon fa fa-chevron-down"></i>  </span>
+                    <span class="submenu-toggler" @onclick="@(() => ToggleSubMenu(7))"> @Localizer["Indexes"] <i class="submenu-toggler-icon fa fa-chevron-down"></i>  </span>
                     <ul class="submenu">
+                        <li><a href="/Nationalities/List"> @Localizer["Nationalities"] </a></li>
+                        <li><a href="/Governorates/List"> @Localizer["Governorates"] </a></li>
+                        <li><a href="/Cities/List"> @Localizer["Cities"] </a></li>
+                        <li><a href="/Activities/List"> @Localizer["Activities"] </a></li>
+                        <li><a href="/JobTypes/List"> @Localizer["Job Types"] </a></li>
+                        <li><a href="/AcademicQualifications/List"> @Localizer["Qualifications"] </a></li>
+                        <li><a href="/DonationTypes/List"> @Localizer["Donation Types"] </a></li>
                     </ul>
                 </div>
             </Authorized>
-        </AuthorizeView>*@
+        </AuthorizeView>
 
         <AuthorizeView Policy="blocks-control">
             <Authorized>
@@ -180,6 +187,51 @@
             </Authorized>
         </AuthorizeView>
 
+        <AuthorizeView Policy="menues-control">
+            <Authorized>
+                <div class="submenu-group @sub[9]">
+                    <i class="fa fa-font"></i>
+                    <span class="submenu-toggler" @onclick="@(() => ToggleSubMenu(9))"> @Localizer["Articles"] <i class="submenu-toggler-icon fa fa-chevron-down"></i>  </span>
+                    <ul class="submenu">
+                        <li><a href="/Articles/List"> @Localizer["Articles"] </a></li>
+                        <li><a href="/ArticleCategories/List"> @Localizer["Categories"] </a></li>
+                        <li><a href="/ArticleTranslations/List"> @Localizer["Translations"] </a></li>
+                    </ul>
+                </div>
+            </Authorized>
+        </AuthorizeView>
+
+        <AuthorizeView Policy="attachments-control">
+            <Authorized>
+                <a href="/Attachments/List">
+                    <i class="fa fa-paperclip"></i>
+                    <span> @Localizer["Attachments"] </span>
+                </a>
+            </Authorized>
+        </AuthorizeView>
+
+        <AuthorizeView Policy="donations-control">
+            <Authorized>
+                <div class="submenu-group @sub[8]">
+                    <i class="fas fa-donate"></i>
+                    <span class="submenu-toggler" @onclick="@(() => ToggleSubMenu(8))"> @Localizer["Donations"] <i class="submenu-toggler-icon fa fa-chevron-down"></i>  </span>
+                    <ul class="submenu">
+                        <li><a href="/CorporateDonators/List"> @Localizer["Corp Donators"] </a></li>
+                        <li><a href="/PersonDonators/List"> @Localizer["Person Donators"] </a></li>
+                        <li><a href="/Beneficiaries/List"> @Localizer["Beneficiaries"] </a></li>
+                        <li><a href="CorporateBeneficiaries/List"> @Localizer["Corp Beneficiaries"] </a></li>
+                        <li><a href="/Donations/List"> @Localizer["Donations"] </a></li>
+                        <li><a href="/DonationRequests/List"> @Localizer["Donation Requests"] </a></li>
+                        <li><a href="/DonationOffers/List"> @Localizer["Donation Offers"] </a></li>
+                        <li><a href="/Vacancies/List"> @Localizer["Vacancies"] </a></li>
+                        <li><a href="/Projects/List"> @Localizer["Projects"] </a></li>
+                        <li><a href="/Organizations/List"> @Localizer["Organizations"] </a></li>
+                        
+                    </ul>
+                </div>
+            </Authorized>
+        </AuthorizeView>
+
         <div class="resp-sidenav-link">
             <CultureSelect></CultureSelect>
         </div>
@@ -207,7 +259,7 @@
 
     IEnumerable<KeyValuePair<string, object>> attr = new List<KeyValuePair<string, object>>() { new KeyValuePair<string, object>("checked", "checked") };
 
-    List<string> sub = new List<string>() { string.Empty, string.Empty, string.Empty, string.Empty, string.Empty, string.Empty, string.Empty };
+    List<string> sub = new List<string>() { string.Empty, string.Empty, string.Empty, string.Empty, string.Empty, string.Empty, string.Empty, string.Empty, string.Empty, string.Empty };
 
     public void ToggleSubMenu(int i)
     {

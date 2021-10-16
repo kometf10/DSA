@@ -80,7 +80,7 @@ namespace OA.Domin.Attributes
 
             foreach(var prop in props)
             {
-                if (!IsForeginKey(prop) && !IsForeginKeyRefColl(prop))
+                if (!IsForeginKey(prop) && !IsForeginKeyRefColl(prop) && !IsIgnored(prop))
                 {
                     if (IsForeginKeyRef(prop))
                     {

@@ -72,7 +72,7 @@ namespace OA.Services.Administration
             newUser.ConfirmedAccount = true;
             newUser.PhoneNumber = user.Phone;
             newUser.Email = user.Email;
-            newUser.NormalizedEmail = user.Email.ToUpper();
+            newUser.NormalizedEmail = user.Email?.ToUpper();
             dbContext.Entry(newUser).State = EntityState.Modified;
             dbContext.SaveChanges();
 

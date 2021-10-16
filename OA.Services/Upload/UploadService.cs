@@ -90,6 +90,9 @@ namespace OA.Services.Upload
 
         public void DeleteUploadedFile(string dbPath)
         {
+            if (string.IsNullOrEmpty(dbPath))
+                return;
+
             var fullPath = Path.Combine(Directory.GetCurrentDirectory(), dbPath);
 
             DeleteFile(fullPath);
@@ -101,7 +104,7 @@ namespace OA.Services.Upload
             var result = new ValidationResult();
             result.Field = "File";
 
-            if (file.Size == 0 || file.Data.Length == 0)
+            if (file == null || file.Size == 0 || file.Data.Length == 0)
                 result.Errors.Add("Empty File Data");
 
             return result;

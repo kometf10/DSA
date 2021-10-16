@@ -1,0 +1,17 @@
+﻿@inherits CorporateDonatorEditBase
+@page "/CorporateDonator/Edit/{id}"
+@attribute [Authorize(Policy = "donations-control")]
+
+<div class="page-title mt-3 mb-4"> @Localizer["Create"] @Localizer["CorporateDonator"] </div>
+
+<EditForm Model="EntityItem" OnValidSubmit="HandelSubmit">
+
+    <FluentValidationValidator />
+
+    <CorporateDonatorForm CorporateDonator="EntityItem" ActivityItems="ActivityItems" IsEdit="true" />
+
+    <SubmitBtn Text="Save" Busy="EditBusy" />
+
+</EditForm>
+
+<Btn ClassList="btn-sm btn-comp-s" Text="Back To List" ClickCallBack="@(() => NavigationManager.NavigateTo("/CorporateDonators/List"))" />

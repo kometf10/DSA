@@ -190,12 +190,6 @@ D:\Al Ibda3 Bank Portal\OA_sln\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.c
 D:\Al Ibda3 Bank Portal\OA_sln\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.dll
 D:\Al Ibda3 Bank Portal\OA_sln\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.pdb
 D:\Al Ibda3 Bank Portal\OA_sln\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.csproj.AssemblyReference.cache
-D:\FS\DSA\DSA_APP\OA_sln\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.csproj.AssemblyReference.cache
-D:\FS\DSA\DSA_APP\OA_sln\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.AssemblyInfoInputs.cache
-D:\FS\DSA\DSA_APP\OA_sln\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.AssemblyInfo.cs
-D:\FS\DSA\DSA_APP\OA_sln\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.csproj.CoreCompileInputs.cache
-D:\FS\DSA\DSA_APP\OA_sln\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.dll
-D:\FS\DSA\DSA_APP\OA_sln\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.pdb
 D:\FS\DSA\DSA_APP\OA_sln\OA.Services\bin\Debug\netcoreapp3.1\OA.Services.deps.json
 D:\FS\DSA\DSA_APP\OA_sln\OA.Services\bin\Debug\netcoreapp3.1\OA.Services.dll
 D:\FS\DSA\DSA_APP\OA_sln\OA.Services\bin\Debug\netcoreapp3.1\OA.Services.pdb
@@ -205,4 +199,10 @@ D:\FS\DSA\DSA_APP\OA_sln\OA.Services\bin\Debug\netcoreapp3.1\OA.Domin.dll
 D:\FS\DSA\DSA_APP\OA_sln\OA.Services\bin\Debug\netcoreapp3.1\OA.DataAccess.pdb
 D:\FS\DSA\DSA_APP\OA_sln\OA.Services\bin\Debug\netcoreapp3.1\OA.Domin.pdb
 D:\FS\DSA\DSA_APP\OA_sln\OA.Services\bin\Debug\netcoreapp3.1\ar-SY\OA.Domin.resources.dll
+D:\FS\DSA\DSA_APP\OA_sln\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.csproj.AssemblyReference.cache
+D:\FS\DSA\DSA_APP\OA_sln\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.AssemblyInfoInputs.cache
+D:\FS\DSA\DSA_APP\OA_sln\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.AssemblyInfo.cs
+D:\FS\DSA\DSA_APP\OA_sln\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.csproj.CoreCompileInputs.cache
 D:\FS\DSA\DSA_APP\OA_sln\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.csproj.CopyComplete
+D:\FS\DSA\DSA_APP\OA_sln\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.dll
+D:\FS\DSA\DSA_APP\OA_sln\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.pdb

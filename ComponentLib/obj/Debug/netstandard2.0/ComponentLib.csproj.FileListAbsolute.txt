@@ -683,6 +683,13 @@ D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Debug\netstandard2.0\ComponentLi
 D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Debug\netstandard2.0\ComponentLib.csproj.CopyComplete
 D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Debug\netstandard2.0\ComponentLib.dll
 D:\Al Ibda3 Bank Portal\OA_sln\ComponentLib\obj\Debug\netstandard2.0\ComponentLib.pdb
+D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\bin\Debug\netstandard2.0\ComponentLib.StaticWebAssets.xml
+D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\bin\Debug\netstandard2.0\ComponentLib.deps.json
+D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\bin\Debug\netstandard2.0\ComponentLib.dll
+D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\bin\Debug\netstandard2.0\ComponentLib.pdb
+D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\bin\Debug\netstandard2.0\OA.Domin.dll
+D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\bin\Debug\netstandard2.0\OA.Domin.pdb
+D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\bin\Debug\netstandard2.0\ar-SY\OA.Domin.resources.dll
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\ComponentLib.csproj.AssemblyReference.cache
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\ComponentLib.AssemblyInfoInputs.cache
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\ComponentLib.AssemblyInfo.cs
@@ -706,6 +713,7 @@ D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\RazorDeclaration\
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\RazorDeclaration\Controls\MNInputNumber.razor.g.cs
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\RazorDeclaration\Controls\RadioBtnList.razor.g.cs
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\RazorDeclaration\Controls\RishTextEditor.razor.g.cs
+D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\RazorDeclaration\Controls\SubmitBtn.razor.g.cs
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\RazorDeclaration\CustomValidationMessage.razor.g.cs
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\RazorDeclaration\Grid.razor.g.cs
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\RazorDeclaration\GridFilter.razor.g.cs
@@ -746,6 +754,7 @@ D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\Razor\Controls\MN
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\Razor\Controls\MNInputNumber.razor.g.cs
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\Razor\Controls\RadioBtnList.razor.g.cs
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\Razor\Controls\RishTextEditor.razor.g.cs
+D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\Razor\Controls\SubmitBtn.razor.g.cs
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\Razor\CustomValidationMessage.razor.g.cs
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\Razor\Grid.razor.g.cs
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\Razor\GridFilter.razor.g.cs
@@ -763,19 +772,12 @@ D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\Razor\ServerValid
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\Razor\ThemingStyle.razor.g.cs
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\Razor\VerticalTabs.razor.g.cs
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\Razor\_Imports.razor.g.cs
-D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\ComponentLib.dll
-D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\ComponentLib.pdb
-D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\bin\Debug\netstandard2.0\ComponentLib.StaticWebAssets.xml
-D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\bin\Debug\netstandard2.0\ComponentLib.deps.json
-D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\bin\Debug\netstandard2.0\ComponentLib.dll
-D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\bin\Debug\netstandard2.0\ComponentLib.pdb
-D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\bin\Debug\netstandard2.0\OA.Domin.dll
-D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\bin\Debug\netstandard2.0\OA.Domin.pdb
-D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\bin\Debug\netstandard2.0\ar-SY\OA.Domin.resources.dll
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\staticwebassets\ComponentLib.StaticWebAssets.Manifest.cache
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\staticwebassets\ComponentLib.StaticWebAssets.xml
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\scopedcss\bundle\ComponentLib.styles.css
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\ComponentLib.RazorTargetAssemblyInfo.cache
 D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\ComponentLib.csproj.CopyComplete
-D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\RazorDeclaration\Controls\SubmitBtn.razor.g.cs
-D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\Razor\Controls\SubmitBtn.razor.g.cs
+D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\ComponentLib.dll
+D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\ComponentLib.pdb
+D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\RazorDeclaration\MarkDown.razor.g.cs
+D:\FS\DSA\DSA_APP\OA_sln\ComponentLib\obj\Debug\netstandard2.0\Razor\MarkDown.razor.g.cs

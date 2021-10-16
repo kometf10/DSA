@@ -1,0 +1,17 @@
+﻿@inherits ActivityCreateBase
+@page "/Activity/Create"
+@attribute [Authorize(Policy = "indexes-control")]
+
+<div class="page-title mt-3 mb-4"> @Localizer["Create"] @Localizer["Activity"] </div>
+
+<EditForm Model="EntityItem" OnValidSubmit="HandelSubmit">
+
+    <FluentValidationValidator />
+
+    <ActivityForm Activity="EntityItem" />
+
+    <SubmitBtn Text="Create" Busy="CreateBusy" />
+
+</EditForm>
+
+<Btn ClassList="btn-sm btn-comp-s" Text="Back To List" ClickCallBack="@(() => NavigationManager.NavigateTo("/Activities/List"))" />

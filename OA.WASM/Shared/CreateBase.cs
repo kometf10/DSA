@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Components;
+﻿using ComponentLib;
+using Microsoft.AspNetCore.Components;
 using Microsoft.Extensions.Localization;
 using Microsoft.JSInterop;
 using OA.Domin.Resources;
@@ -20,6 +21,8 @@ namespace OA.WASM.Shared
 
         [Inject]
         public NavigationManager NavigationManager { get; set; }
+
+        public ServerValidation ServerValidation { get; set; } = new ServerValidation();
 
         [Inject]
         public ServiceBase<T> CreateService { get; set; }
@@ -53,16 +56,19 @@ namespace OA.WASM.Shared
                 await JSRT.InvokeVoidAsync("Toast", Localizer["Changes Saved Successfully"].Value);
             else
             {
-                if(result.ValidationErrors.Any())
-                    await JSRT.InvokeVoidAsync("Toast", Localizer["Something Went Wrong"].Value, "error");
+                if (result.ValidationErrors.Any())
+                {
+                    await JSRT.InvokeVoidAsync("Toast", Localizer["Validation Errors"].Value, "error");
+                }
                 else
                     await JSRT.InvokeVoidAsync("Toast", Localizer["Something Went Wrong"].Value, "error");
 
             }
 
-            CreateBusy = false;
-            
+            CreateBusy = false;           
         }
+
+        //public virtual void ShowValidation(){}
 
         public async Task<Dictionary<string, string>> GetIndexData<U>() where U : class
         { 
